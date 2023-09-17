@@ -18,21 +18,21 @@ resource "aws_iam_role" "iam_for_lambda" {
 
 data "archive_file" "lambda" {
   type        = "zip"
-  source_file = "lambda-function.py"
-  output_path = "zip-files.zip"
+  source_file = "var.source_file"
+  output_path = "var.output_path"
 }
 
 resource "aws_lambda_function" "test_lambda" {
   # If the file is not in the current working directory you will need to include a
   # path.module in the filename.
-  filename      = "zip-files.zip"
-  function_name = "lambda-function"
+  filename      = "var.filename"
+  function_name = "var.function_name"
   role          = aws_iam_role.iam_for_lambda.arn
-  handler       = "zip-files.zip"
+  handler       = "var.handler"
 
   source_code_hash = data.archive_file.lambda.output_base64sha256
 
-  runtime = "nodejs14.x"
+  runtime = "var.runtime"
 
   environment {
     variables = {
