@@ -6,10 +6,6 @@ variable "filename" {
     default = "zip-files.zip"
 }
 
-//variable "function_name" {
-//    default = "lambda-function"
-//}
-
 variable "handler" {
     default = "zip-files.zip"
 }
