@@ -3,5 +3,5 @@ variable "handler" {
 }
 
 variable "function_name" {
-    default = "lambda-demo"
+    default = "lambda-function"
 }
