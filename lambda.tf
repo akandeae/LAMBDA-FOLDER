@@ -28,11 +28,11 @@ resource "aws_lambda_function" "test_lambda" {
   filename      = "zip-files.zip"
   function_name = "demo-lambda"
   role          = aws_iam_role.iam_for_lambda.arn
-  handler       = "var.handler"
+  handler       = "lambda-function.lambda_handler:"
 
   source_code_hash = data.archive_file.lambda.output_base64sha256
 
-  runtime = "nodejs14.x"
+  runtime = "python3.8"
 
   environment {
     variables = {
