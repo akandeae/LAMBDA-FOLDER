@@ -28,7 +28,7 @@ resource "aws_lambda_function" "test_lambda" {
   filename      = "zip-files.zip"
   function_name = "demo-lambda"
   role          = aws_iam_role.iam_for_lambda.arn
-  handler       = "lambda-function.lambda_handler:"
+  handler       = "lambda-function.lambda_handler"
 
   source_code_hash = data.archive_file.lambda.output_base64sha256
 
