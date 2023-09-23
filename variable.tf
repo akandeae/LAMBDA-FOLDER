@@ -1,3 +1,3 @@
 variable "handler" {
-    default = "lambda_handler"
+    default = "lambda-function.lambda_handler"
 }
