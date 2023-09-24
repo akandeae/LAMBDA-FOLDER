@@ -1,5 +1,5 @@
 def lambda_handler(event, context):
-   message = 'Hello {} !'.format(event['key1'])
+   print("welcome to United States Of Aemerica")
    return {
        'message' : message
    }
