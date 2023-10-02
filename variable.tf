@@ -3,7 +3,7 @@ variable "handler" {
 }
 
 
-variable " timeout " {
+variable "timeout" {
     type = number
     default = 3
 }
