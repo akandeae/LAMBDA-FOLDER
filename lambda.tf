@@ -17,7 +17,7 @@ resource "aws_lambda_function" "test_lambda" {
   filename      = "${local.file_location}"
   function_name = "demo-lambda"
   role          = aws_iam_role.iam_for_lambda.arn
-  handler       = "var.handler"
+  handler       = var.handler
   timeout	= var.timeout
   memory_size	= var.memory_size
 
