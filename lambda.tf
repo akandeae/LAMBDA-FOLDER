@@ -15,7 +15,7 @@ resource "aws_lambda_function" "test_lambda" {
   # If the file is not in the current working directory you will need to include a
   # path.module in the filename.
   filename      = "${local.file_location}"
-  function_name = "demo-lambda"
+  function_name = demo-lambda
   role          = aws_iam_role.iam_for_lambda.arn
   handler       = "var.handler"
   timeout	= var.timeout
