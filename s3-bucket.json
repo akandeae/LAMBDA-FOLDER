@@ -1,0 +1,39 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Statement1",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": [
+                    "arn:aws:iam::611706558220:role/data_infra_service",
+                    "arn:aws:iam::611706558220:role/sso_bi_contractor",
+                    "arn:aws:iam::611706558220:role/sso_bi_analyst"
+                ]
+            },
+            "Action": [
+                "s3:Put*",
+                "s3:List*"
+            ],
+            "Resource": [
+                "arn:aws:s3:::avm-comment-sentiment-data/*",
+                "arn:aws:s3:::avm-comment-sentiment-data"
+            ]
+        },
+        {
+            "Sid": "AllowSSLRequestsOnly",
+            "Effect": "Deny",
+            "Principal": "*",
+            "Action": "s3:*",
+            "Resource": [
+                "arn:aws:s3:::avm-comment-sentiment-data",
+                "arn:aws:s3:::avm-comment-sentiment-data/*"
+            ],
+            "Condition": {
+                "Bool": {
+                    "aws:SecureTransport": "false"
+                }
+            }
+        }
+    ]
+}
