@@ -1,16 +1,11 @@
 {
     "Version": "2012-10-17",
     "Statement": [
-      {
-        "Effect": "Allow",
-        "Action": [
-          "s3:PutObject",
-          "s3:PutObjectAcl"
-        ],
-        "Resource": [
-            "arn:aws:s3:::avm-comment-sentiment-data",
-            "arn:aws:s3:::avm-comment-sentiment-data/*"
-        ]
-      }
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": "sts:AssumeRole",
+            "Resource": "arn:aws:iam::192845894307:role/bucketes3sharingRole"
+        }
     ]
-  }
+}
