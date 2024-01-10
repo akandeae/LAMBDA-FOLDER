@@ -1,0 +1,4011 @@
+{
+    "tags": [
+        "AWS",
+        "us-east-1",
+        "Development"
+    ],
+    "data": {
+        "name": "Development us-east-1 2024-01-03T14:41:53.830Z",
+        "grid": "infinite",
+        "projection": "isometric",
+        "liveOptions": {},
+        "shareDocs": false,
+        "surfaces": [],
+        "connectors": [],
+        "nodes": [
+            {
+                "type": "ebs",
+                "id": "f55ad9a9-cb3f-46a5-9454-8a54b0c98465",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:volume/vol-0f4c21b88de20d420",
+                "mapPos": [
+                    19,
+                    0
+                ],
+                "region": "us-east-1",
+                "volume": "gp3",
+                "storage": 20,
+                "iops": 3000,
+                "throughput": 150,
+                "snapshots": 0
+            },
+            {
+                "type": "ebs",
+                "id": "686a28a6-749c-46a2-9b53-0767dc62af68",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:volume/vol-0fc2fc6c87203915d",
+                "mapPos": [
+                    30,
+                    0
+                ],
+                "region": "us-east-1",
+                "volume": "gp3",
+                "storage": 20,
+                "iops": 3000,
+                "throughput": 150,
+                "snapshots": 0
+            },
+            {
+                "type": "ebs",
+                "id": "2d8c6fb0-7406-4dcd-bbb8-7ed2e8582e1f",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:volume/vol-0db113c573b589d69",
+                "mapPos": [
+                    33,
+                    0
+                ],
+                "region": "us-east-1",
+                "volume": "gp3",
+                "storage": 20,
+                "iops": 3000,
+                "throughput": 150,
+                "snapshots": 0
+            },
+            {
+                "type": "ebs",
+                "id": "bbc737cd-d414-4a3d-85ea-c18830fa705d",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:volume/vol-057a589fe46d75840",
+                "mapPos": [
+                    36,
+                    0
+                ],
+                "region": "us-east-1",
+                "volume": "gp3",
+                "storage": 20,
+                "iops": 3000,
+                "throughput": 150,
+                "snapshots": 0
+            },
+            {
+                "type": "ebs",
+                "id": "a0830398-ae60-4fae-861e-aa9e018e2983",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:volume/vol-0d0487c1cfc9e3318",
+                "mapPos": [
+                    44,
+                    0
+                ],
+                "region": "us-east-1",
+                "volume": "gp3",
+                "storage": 20,
+                "iops": 3000,
+                "throughput": 150,
+                "snapshots": 0
+            },
+            {
+                "type": "ebs",
+                "id": "461387b3-8559-4298-b23e-0e6c3c54c638",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:volume/vol-028f09a93109d9755",
+                "mapPos": [
+                    58,
+                    0
+                ],
+                "region": "us-east-1",
+                "volume": "gp3",
+                "storage": 20,
+                "iops": 3000,
+                "throughput": 150,
+                "snapshots": 0
+            },
+            {
+                "type": "ebs",
+                "id": "c741099a-5f91-4158-9475-5b02b3710214",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:volume/vol-0d68c418797770458",
+                "mapPos": [
+                    64,
+                    0
+                ],
+                "region": "us-east-1",
+                "volume": "gp3",
+                "storage": 20,
+                "iops": 3000,
+                "throughput": 150,
+                "snapshots": 0
+            },
+            {
+                "type": "ebs",
+                "id": "71c7c7f8-d1fe-42d8-9ab1-a81d2a3c3b61",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:volume/vol-0f0a0bd91e21f9a9a",
+                "mapPos": [
+                    67,
+                    0
+                ],
+                "region": "us-east-1",
+                "volume": "gp3",
+                "storage": 20,
+                "iops": 3000,
+                "throughput": 150,
+                "snapshots": 0
+            },
+            {
+                "type": "ebs",
+                "id": "78372333-234b-42fb-89ab-6372c73d4689",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:volume/vol-04f7bdb9075138bb2",
+                "mapPos": [
+                    70,
+                    0
+                ],
+                "region": "us-east-1",
+                "volume": "gp3",
+                "storage": 20,
+                "iops": 3000,
+                "throughput": 150,
+                "snapshots": 0
+            },
+            {
+                "type": "lambda",
+                "id": "291f8631-248b-4daf-9ba6-00c84a6a21e1",
+                "arn": "arn:aws:lambda:us-east-1:242690085300:function:DatadogIntegration-ForwarderStack-HZKX8Y-Forwarder-VEzvElavXdMu",
+                "mapPos": [
+                    73,
+                    0
+                ],
+                "region": "us-east-1",
+                "memory": 1024,
+                "mRequests": 10,
+                "computeDuration": 0.5,
+                "architecture": "x86_64"
+            },
+            {
+                "type": "snssubscriptions",
+                "id": "868c5c29-b7f9-43be-bb46-1a7855424694",
+                "arn": "arn:aws:sns:us-east-1:242690085300:subscriptions/metric_changes_cloud_watch_alarm_dev/email",
+                "mapPos": [
+                    76,
+                    0
+                ],
+                "region": "us-east-1",
+                "notifications": 1,
+                "notificationType": "email"
+            },
+            {
+                "type": "s3",
+                "id": "1324e967-8f33-407a-96a7-e4247e9c9a0b",
+                "arn": "arn:aws:s3::242690085300:zaxbys-datadog-logs-dev",
+                "mapPos": [
+                    36,
+                    8
+                ],
+                "region": "us-east-1",
+                "volumeType": "Standard",
+                "dataGb": 10,
+                "putCopyPostRequests": 0,
+                "getAndOtherRequests": 0,
+                "lifecycleTransitions": 0
+            },
+            {
+                "type": "ec2",
+                "id": "8c5fc15b-32f2-4f18-9bfb-6d29a692c3c1",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:instance/i-02e1befebe1edc993",
+                "mapPos": [
+                    44,
+                    8
+                ],
+                "region": "us-east-1",
+                "transparent": false,
+                "platform": "linux",
+                "instanceType": "t3a",
+                "instanceSize": "medium"
+            },
+            {
+                "type": "ec2",
+                "id": "1cf5c093-23fb-4a2b-9ec5-0515a613b373",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:instance/i-04f532a6196505246",
+                "mapPos": [
+                    45.3,
+                    8
+                ],
+                "region": "us-east-1",
+                "transparent": false,
+                "platform": "linux",
+                "instanceType": "t3a",
+                "instanceSize": "medium"
+            },
+            {
+                "type": "ec2",
+                "id": "0b64881a-31cf-4084-ae55-60de53657567",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:instance/i-05c3ffdc873d957bf",
+                "mapPos": [
+                    46.6,
+                    8
+                ],
+                "region": "us-east-1",
+                "transparent": false,
+                "platform": "linux",
+                "instanceType": "t3a",
+                "instanceSize": "medium"
+            },
+            {
+                "type": "ec2",
+                "id": "7714e7c6-2f5f-44e6-bdf1-d713dd8e0c90",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:instance/i-0673b2ef5c29db639",
+                "mapPos": [
+                    47.9,
+                    8
+                ],
+                "region": "us-east-1",
+                "transparent": false,
+                "platform": "linux",
+                "instanceType": "t3a",
+                "instanceSize": "medium"
+            },
+            {
+                "type": "ec2",
+                "id": "70101fa3-fbdd-48f2-ad25-593ddd1f9472",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:instance/i-09c059c1841419529",
+                "mapPos": [
+                    49.2,
+                    8
+                ],
+                "region": "us-east-1",
+                "transparent": false,
+                "platform": "linux",
+                "instanceType": "t3a",
+                "instanceSize": "medium"
+            },
+            {
+                "type": "ec2",
+                "id": "a93b6e36-1846-4806-b4ce-b80ad762f4a8",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:instance/i-0c8487036773d857c",
+                "mapPos": [
+                    50.5,
+                    8
+                ],
+                "region": "us-east-1",
+                "transparent": false,
+                "platform": "linux",
+                "instanceType": "t3a",
+                "instanceSize": "medium"
+            },
+            {
+                "type": "ec2",
+                "id": "99931624-435b-4108-928e-4d96f246e312",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:instance/i-00ed6926d3bb5086f",
+                "mapPos": [
+                    58,
+                    8
+                ],
+                "region": "us-east-1",
+                "transparent": false,
+                "platform": "linux",
+                "instanceType": "c5a",
+                "instanceSize": "xlarge"
+            },
+            {
+                "type": "ec2",
+                "id": "c38cf5b0-b696-4094-8f96-a50303fbce4a",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:instance/i-0678d679b82c12914",
+                "mapPos": [
+                    59.5,
+                    8
+                ],
+                "region": "us-east-1",
+                "transparent": false,
+                "platform": "linux",
+                "instanceType": "c5a",
+                "instanceSize": "xlarge"
+            },
+            {
+                "type": "ec2",
+                "id": "535273bb-1878-4a78-867d-a5c9f45d09e9",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:instance/i-0b56921bd3e160b7c",
+                "mapPos": [
+                    61,
+                    8
+                ],
+                "region": "us-east-1",
+                "transparent": false,
+                "platform": "linux",
+                "instanceType": "c5a",
+                "instanceSize": "xlarge"
+            },
+            {
+                "type": "waf",
+                "id": "1bb4122d-0e70-45df-84d0-c2b854ddb0a7",
+                "arn": "arn:aws:wafv2:us-east-1:242690085300:regional/webacl/AllowOnlySecuredLocations/bb287650-138c-412d-8c58-3e85a1130f97",
+                "mapPos": [
+                    64,
+                    8
+                ],
+                "region": "us-east-1",
+                "aclCount": 1,
+                "ruleCount": 4,
+                "requestMillions": 0
+            },
+            {
+                "type": "snstopic",
+                "id": "1599d4ca-cef4-4105-984a-f43ae7f0709b",
+                "arn": "arn:aws:sns:us-east-1:242690085300:metric_changes_cloud_watch_alarm_dev",
+                "mapPos": [
+                    67,
+                    8
+                ],
+                "region": "us-east-1",
+                "requests": 1
+            },
+            {
+                "type": "apigateway",
+                "id": "89500642-93ad-4436-9c20-0c15401e7d19",
+                "arn": "arn:aws:apigateway:us-east-1:242690085300:/restapis/63251fqhp4",
+                "mapPos": [
+                    0,
+                    16
+                ],
+                "apiType": "rest",
+                "region": "us-east-1",
+                "direction": "down",
+                "apiCalls": 5,
+                "connectionMinutes": 0,
+                "cache": 0
+            },
+            {
+                "type": "waf",
+                "id": "4840796a-7f03-49cd-9d10-80627053dff8",
+                "arn": "arn:aws:wafv2:us-east-1:242690085300:global/webacl/AllowOnlySecuredLocations/f3d372c3-1aef-46e6-9cd2-ba9280d6fb97",
+                "mapPos": [
+                    3,
+                    16
+                ],
+                "region": "us-east-1",
+                "aclCount": 1,
+                "ruleCount": 4,
+                "requestMillions": 0
+            },
+            {
+                "type": "elb",
+                "id": "165ab37a-e38e-4174-ac9b-9d9cc598c508",
+                "arn": "arn:aws:elasticloadbalancing:us-east-1:242690085300:loadbalancer/app/frontend-alb-ingress/142fa771a95e1642",
+                "mapPos": [
+                    11,
+                    16
+                ],
+                "region": "us-east-1",
+                "elbType": "application",
+                "lcu": 1,
+                "dataGb": 10
+            },
+            {
+                "type": "elb",
+                "id": "b523d97e-b8aa-4813-8d6a-4dd370de5762",
+                "arn": "arn:aws:elasticloadbalancing:us-east-1:242690085300:loadbalancer/net/microservices-nlb/9909c205823192fa",
+                "mapPos": [
+                    30,
+                    16
+                ],
+                "region": "us-east-1",
+                "elbType": "network",
+                "lcu": 1,
+                "dataGb": 10
+            },
+            {
+                "type": "s3",
+                "id": "3902260f-7f1e-476c-abfc-c22a2d00a94d",
+                "arn": "arn:aws:s3::242690085300:zaxbys-cms-dev",
+                "mapPos": [
+                    33,
+                    16
+                ],
+                "region": "us-east-1",
+                "volumeType": "Standard",
+                "dataGb": 10,
+                "putCopyPostRequests": 0,
+                "getAndOtherRequests": 0,
+                "lifecycleTransitions": 0
+            },
+            {
+                "type": "s3",
+                "id": "91eb8276-0ede-4e1d-a703-75afb38aa114",
+                "arn": "arn:aws:s3::242690085300:config-bucket-242690085300",
+                "mapPos": [
+                    36,
+                    16
+                ],
+                "region": "us-east-1",
+                "volumeType": "Standard",
+                "dataGb": 10,
+                "putCopyPostRequests": 0,
+                "getAndOtherRequests": 0,
+                "lifecycleTransitions": 0
+            },
+            {
+                "type": "s3",
+                "id": "3cb2eea1-a0d6-4af3-b026-45b2d4a899ce",
+                "arn": "arn:aws:s3::242690085300:datadogintegration-forwarderstack-forwarderbucket-qk2ob3wfzh4x",
+                "mapPos": [
+                    44,
+                    16
+                ],
+                "region": "us-east-1",
+                "volumeType": "Standard",
+                "dataGb": 10,
+                "putCopyPostRequests": 0,
+                "getAndOtherRequests": 0,
+                "lifecycleTransitions": 0
+            },
+            {
+                "type": "s3",
+                "id": "dba86fab-0031-426d-be75-b667fe9522ad",
+                "arn": "arn:aws:s3::242690085300:terraform-states-242690085300",
+                "mapPos": [
+                    58,
+                    16
+                ],
+                "region": "us-east-1",
+                "volumeType": "Standard",
+                "dataGb": 10,
+                "putCopyPostRequests": 0,
+                "getAndOtherRequests": 0,
+                "lifecycleTransitions": 0
+            },
+            {
+                "type": "s3",
+                "id": "dda92ef6-3cf3-4662-8d04-c1dfe857e308",
+                "arn": "arn:aws:s3::242690085300:zaxbys-cloudfront-logs-dev",
+                "mapPos": [
+                    64,
+                    16
+                ],
+                "region": "us-east-1",
+                "volumeType": "Standard",
+                "dataGb": 10,
+                "putCopyPostRequests": 0,
+                "getAndOtherRequests": 0,
+                "lifecycleTransitions": 0
+            },
+            {
+                "type": "s3",
+                "id": "fc0d863c-8197-4fec-96bc-988270c2e71d",
+                "arn": "arn:aws:s3::242690085300:zaxbys-datalake-dev-manual",
+                "mapPos": [
+                    67,
+                    16
+                ],
+                "region": "us-east-1",
+                "volumeType": "Standard",
+                "dataGb": 10,
+                "putCopyPostRequests": 0,
+                "getAndOtherRequests": 0,
+                "lifecycleTransitions": 0
+            },
+            {
+                "type": "s3",
+                "id": "832f155b-4fc0-437a-860f-c081149dc8ff",
+                "arn": "arn:aws:s3::242690085300:zaxbys-datalake-manual",
+                "mapPos": [
+                    70,
+                    16
+                ],
+                "region": "us-east-1",
+                "volumeType": "Standard",
+                "dataGb": 10,
+                "putCopyPostRequests": 0,
+                "getAndOtherRequests": 0,
+                "lifecycleTransitions": 0
+            },
+            {
+                "type": "s3",
+                "id": "d851ef91-13ea-47d2-8735-f26b4553cee3",
+                "arn": "arn:aws:s3::242690085300:zaxbys-emails-dev",
+                "mapPos": [
+                    73,
+                    16
+                ],
+                "region": "us-east-1",
+                "volumeType": "Standard",
+                "dataGb": 10,
+                "putCopyPostRequests": 0,
+                "getAndOtherRequests": 0,
+                "lifecycleTransitions": 0
+            },
+            {
+                "type": "s3",
+                "id": "bec1c76a-c4c1-44e9-824c-d106a5a71b7e",
+                "arn": "arn:aws:s3::242690085300:zaxbys-test-dev",
+                "mapPos": [
+                    76,
+                    16
+                ],
+                "region": "us-east-1",
+                "volumeType": "Standard",
+                "dataGb": 10,
+                "putCopyPostRequests": 0,
+                "getAndOtherRequests": 0,
+                "lifecycleTransitions": 0
+            },
+            {
+                "type": "lambda",
+                "id": "1a7d66b1-a1ef-4d27-b6cb-737afdce8c28",
+                "arn": "arn:aws:lambda:us-east-1:242690085300:function:get-config-lambda",
+                "mapPos": [
+                    84,
+                    16
+                ],
+                "region": "us-east-1",
+                "memory": 128,
+                "mRequests": 10,
+                "computeDuration": 0.5,
+                "architecture": "x86_64"
+            },
+            {
+                "type": "apigateway",
+                "id": "9c68343a-af69-4b5c-a677-65d467f4551d",
+                "arn": "arn:aws:apigateway:us-east-1:242690085300:/restapis/nfy8h888da",
+                "mapPos": [
+                    87,
+                    16
+                ],
+                "apiType": "rest",
+                "region": "us-east-1",
+                "direction": "down",
+                "apiCalls": 5,
+                "connectionMinutes": 0,
+                "cache": 0
+            },
+            {
+                "type": "cloudfront",
+                "id": "92cec377-986b-4ced-b61e-1c90043ef3ea",
+                "arn": "arn:aws:cloudfront::242690085300:distribution/E3ASV5NZE29OVD",
+                "mapPos": [
+                    36,
+                    27
+                ]
+            },
+            {
+                "type": "cloudfront",
+                "id": "a66ec994-4315-40a1-b431-e4d4818601c3",
+                "arn": "arn:aws:cloudfront::242690085300:distribution/E1ILEAW0ODDXAM",
+                "mapPos": [
+                    44,
+                    27
+                ]
+            },
+            {
+                "type": "cloudfront",
+                "id": "06cc7026-d3b6-4777-9a7b-744d790acf25",
+                "arn": "arn:aws:cloudfront::242690085300:distribution/E2EBSQMJED8G58",
+                "mapPos": [
+                    58,
+                    27
+                ]
+            },
+            {
+                "type": "apigateway",
+                "id": "24e8967e-7ec4-4907-9f01-4314e6297c5c",
+                "arn": "arn:aws:apigateway:us-east-1:242690085300:/restapis/pg4d9jidph",
+                "mapPos": [
+                    64,
+                    27
+                ],
+                "apiType": "rest",
+                "region": "us-east-1",
+                "direction": "down",
+                "apiCalls": 5,
+                "connectionMinutes": 0,
+                "cache": 0.5
+            },
+            {
+                "type": "waf",
+                "id": "f2a8e32d-93e6-4f8e-bf7c-98eca77f4e36",
+                "arn": "arn:aws:wafv2:us-east-1:242690085300:global/webacl/dev_cloudfront_acl-test/f63d481d-a7c7-43ec-a09a-e6b74f77f903",
+                "mapPos": [
+                    67,
+                    27
+                ],
+                "region": "us-east-1",
+                "aclCount": 1,
+                "ruleCount": 12,
+                "requestMillions": 0
+            },
+            {
+                "type": "r53",
+                "id": "4189b3f7-77b0-425b-94f5-d61064de5640",
+                "arn": "arn:aws:route53::242690085300:hostedzone/Z00615624GDN526ELZ4C",
+                "mapPos": [
+                    44,
+                    30
+                ]
+            },
+            {
+                "type": "cloudfront",
+                "id": "2aecf3ae-4779-40f6-9c42-10a4a1b66fc9",
+                "arn": "arn:aws:cloudfront::242690085300:distribution/E2OD98033IBKL2",
+                "mapPos": [
+                    58,
+                    30
+                ]
+            },
+            {
+                "type": "cloudfront",
+                "id": "e997d255-bbc7-434d-8169-7fa3bc429a5b",
+                "arn": "arn:aws:cloudfront::242690085300:distribution/E33XZDT0PG2DWI",
+                "mapPos": [
+                    64,
+                    30
+                ]
+            },
+            {
+                "type": "ebs",
+                "id": "ac3a2c24-baf1-4149-92b3-caa0ad3b3abf",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:volume/vol-0a3fc1465900b3a41",
+                "mapPos": [
+                    58,
+                    33
+                ],
+                "region": "us-east-1",
+                "volume": "gp3",
+                "storage": 8,
+                "iops": 3000,
+                "throughput": 125,
+                "snapshots": 0
+            },
+            {
+                "type": "ec2",
+                "id": "abc3babc-52d3-4090-8ec2-194518d64664",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:instance/i-09d326b38f57d6bb6",
+                "mapPos": [
+                    58,
+                    41
+                ],
+                "region": "us-east-1",
+                "transparent": false,
+                "platform": "linux",
+                "instanceType": "t4g",
+                "instanceSize": "micro"
+            },
+            {
+                "type": "ebs",
+                "id": "188ac4cf-344a-498b-885f-5ff8d112933b",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:volume/vol-0f5d00649caeea853",
+                "mapPos": [
+                    0,
+                    49
+                ],
+                "region": "us-east-1",
+                "volume": "gp2",
+                "storage": 30,
+                "iops": 100,
+                "throughput": 125,
+                "snapshots": 0
+            },
+            {
+                "type": "ec2",
+                "id": "b69b804c-f81d-40cb-99cc-ea916785253f",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:instance/i-0f42b2512659e3a9a",
+                "mapPos": [
+                    0,
+                    57
+                ],
+                "region": "us-east-1",
+                "transparent": false,
+                "platform": "linux",
+                "instanceType": "t2",
+                "instanceSize": "micro"
+            },
+            {
+                "type": "efs",
+                "id": "6dd203dc-a8b9-41dc-9487-2b56a2117db9",
+                "arn": "arn:aws:elasticfilesystem:us-east-1:242690085300:file-system/fs-098fa0eb69b762de6",
+                "mapPos": [
+                    0,
+                    65
+                ],
+                "region": "us-east-1",
+                "usageGb": 2.48,
+                "readWriteGb": 0,
+                "availabilityZone": null,
+                "infrequentAccess": false,
+                "throughputMode": "bursting",
+                "throughput": 0
+            },
+            {
+                "type": "elasticache",
+                "id": "4df266db-17bc-4d5a-9ef2-bdc36fd06e3c",
+                "arn": "arn:aws:elasticache:us-east-1:242690085300:cluster:zaxbys-microservice-dev-redis-0001-001",
+                "mapPos": [
+                    9,
+                    65
+                ],
+                "region": "us-east-1",
+                "engine": "redis",
+                "instanceType": "t4g",
+                "instanceSize": "small"
+            },
+            {
+                "type": "elb",
+                "id": "fc11c1a8-49ff-492f-8a18-605fd116be90",
+                "arn": "arn:aws:elasticloadbalancing:us-east-1:242690085300:loadbalancer/net/microservices-nlb-dev/3f7404ea319b222b",
+                "mapPos": [
+                    14,
+                    65
+                ],
+                "region": "us-east-1",
+                "elbType": "network",
+                "lcu": 1,
+                "dataGb": 10
+            },
+            {
+                "type": "internetgateway",
+                "id": "44b8f0bb-9a65-473b-b357-8dbe966a3b45",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:internetGateway/igw-066c85d364dfd00c2",
+                "mapPos": [
+                    20,
+                    65
+                ],
+                "region": "us-east-1",
+                "direction": "down"
+            },
+            {
+                "type": "natgateway",
+                "id": "58d1355f-1d03-4b8b-b56f-1a52814fe677",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:natGateway/nat-023f65ac7ba3d9be2",
+                "mapPos": [
+                    26.84,
+                    65
+                ],
+                "region": "us-east-1",
+                "direction": "down",
+                "dataGb": 10
+            },
+            {
+                "type": "natgateway",
+                "id": "8a492a9d-8482-480e-a6a1-b41302167e6d",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:natGateway/nat-00943938359bd00a6",
+                "mapPos": [
+                    36.68,
+                    65
+                ],
+                "region": "us-east-1",
+                "direction": "down",
+                "dataGb": 10
+            },
+            {
+                "type": "rds",
+                "id": "d4f54e3c-8865-406e-9f9d-59ca6bd25c12",
+                "arn": "arn:aws:rds:us-east-1:242690085300:cluster:zaxbys-aurora-cluster-dev",
+                "mapPos": [
+                    46.519999999999996,
+                    65
+                ],
+                "region": "us-east-1",
+                "role": "primary",
+                "engine": "aurora-mysql",
+                "instanceType": "r7g",
+                "instanceSize": "large",
+                "multiAZ": false,
+                "minimumCapacityUnit": 2,
+                "maximumCapacityUnit": 2
+            },
+            {
+                "type": "vpcendpoint",
+                "id": "a772e4f5-096a-4451-8321-6ffc4c22d688",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:vpce/vpce-056d989750640a651",
+                "mapPos": [
+                    54.519999999999996,
+                    65
+                ],
+                "region": "us-east-1",
+                "endpointType": "interface",
+                "dataGb": 10
+            },
+            {
+                "type": "elasticache",
+                "id": "a8b46437-f0a8-4cd3-8dc3-842b9566937c",
+                "arn": "arn:aws:elasticache:us-east-1:242690085300:cluster:zaxbys-microservice-dev-redis-0001-002",
+                "mapPos": [
+                    9,
+                    68
+                ],
+                "region": "us-east-1",
+                "engine": "redis",
+                "instanceType": "t4g",
+                "instanceSize": "small"
+            },
+            {
+                "type": "natgateway",
+                "id": "174d17a1-abac-4b98-886b-6ac6c6cd5b5f",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:natGateway/nat-0208ed08c232a6388",
+                "mapPos": [
+                    26.84,
+                    74
+                ],
+                "region": "us-east-1",
+                "direction": "down",
+                "dataGb": 10
+            },
+            {
+                "type": "vpcendpoint",
+                "id": "d7b6e14a-24fe-4279-bad9-5c70f2f32bfa",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:vpce/vpce-067134fbbc0a0ff09",
+                "mapPos": [
+                    54.519999999999996,
+                    74
+                ],
+                "region": "us-east-1",
+                "endpointType": "interface",
+                "dataGb": 10
+            },
+            {
+                "type": "ebs",
+                "id": "b50e291b-ee28-4adc-ac36-d1f4e13c024e",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:volume/vol-044c5d6b6783ce745",
+                "mapPos": [
+                    0,
+                    87
+                ],
+                "region": "us-east-1",
+                "volume": "gp2",
+                "storage": 8,
+                "iops": 100,
+                "throughput": 125,
+                "snapshots": 0
+            },
+            {
+                "type": "internetgateway",
+                "id": "5a3a15e4-1df2-4037-a0c9-fecd79aa4935",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:internetGateway/igw-0b064de0c55bb3ac5",
+                "mapPos": [
+                    6,
+                    87
+                ],
+                "region": "us-east-1",
+                "direction": "down"
+            },
+            {
+                "type": "rds",
+                "id": "e1a532ab-a393-4f2f-a52c-3c933469e2b8",
+                "arn": "arn:aws:rds:us-east-1:242690085300:cluster:cs-misp-cluster",
+                "mapPos": [
+                    12.84,
+                    87
+                ],
+                "region": "us-east-1",
+                "role": "serverless-v2",
+                "engine": "aurora-mysql",
+                "instanceType": "m5",
+                "instanceSize": "large",
+                "multiAZ": true,
+                "minimumCapacityUnit": 2,
+                "maximumCapacityUnit": 32,
+                "serverlessMode": "standard"
+            },
+            {
+                "type": "internetgateway",
+                "id": "b3ce5f72-7ea0-4097-81fb-e43fd6bf7c2e",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:internetGateway/igw-0e07bec7f840f294c",
+                "mapPos": [
+                    23,
+                    87
+                ],
+                "region": "us-east-1",
+                "direction": "down"
+            },
+            {
+                "type": "lambda",
+                "id": "4d2a01c4-85e0-484d-9ce2-58fd10b3f1e3",
+                "arn": "arn:aws:lambda:us-east-1:242690085300:function:echo-lambda",
+                "mapPos": [
+                    29,
+                    87
+                ],
+                "region": "us-east-1",
+                "memory": 128,
+                "mRequests": 10,
+                "computeDuration": 0.5,
+                "architecture": "x86_64"
+            },
+            {
+                "type": "apigateway",
+                "id": "ec3bb25d-b823-4841-a662-43219a97d63f",
+                "arn": "arn:aws:apigateway:us-east-1:242690085300:/restapis/zlvxuytrya",
+                "mapPos": [
+                    29,
+                    90
+                ],
+                "apiType": "rest",
+                "region": "us-east-1",
+                "direction": "down",
+                "apiCalls": 5,
+                "connectionMinutes": 0,
+                "cache": 0
+            },
+            {
+                "type": "ec2",
+                "id": "25b34717-3d81-4bdd-9162-355a0f1824e7",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:instance/i-0fe757a4cf1208bb5",
+                "mapPos": [
+                    0,
+                    95
+                ],
+                "region": "us-east-1",
+                "transparent": false,
+                "platform": "linux",
+                "instanceType": "t2",
+                "instanceSize": "micro"
+            },
+            {
+                "type": "cloudfront",
+                "id": "ce29ba84-2dc7-46c8-ad73-7e31f71ee27f",
+                "arn": "arn:aws:cloudfront::242690085300:distribution/E3SPF6RMVCFZQS",
+                "mapPos": [
+                    0,
+                    103
+                ]
+            },
+            {
+                "type": "dynamodb",
+                "id": "cf8ab46c-5550-4606-88fd-97afea9fdb88",
+                "arn": "arn:aws:dynamodb:us-east-1:242690085300:table/terraform-states-242690085300",
+                "mapPos": [
+                    3,
+                    103
+                ],
+                "region": "us-east-1",
+                "tableClass": "standard",
+                "datasetGb": 0,
+                "readUnits": 0,
+                "writeUnits": 0,
+                "readConsistency": "strong",
+                "capacityMode": "on-demand"
+            },
+            {
+                "type": "lambda",
+                "id": "8d440cdc-92a2-42f3-8f93-75e1c1946cc5",
+                "arn": "arn:aws:lambda:us-east-1:242690085300:function:cache-clear",
+                "mapPos": [
+                    6,
+                    103
+                ],
+                "region": "us-east-1",
+                "memory": 128,
+                "mRequests": 10,
+                "computeDuration": 0.5,
+                "architecture": "x86_64"
+            },
+            {
+                "type": "lambda",
+                "id": "375535b9-0dcb-4567-96af-62bc163ead0e",
+                "arn": "arn:aws:lambda:us-east-1:242690085300:function:SFTP-Auth",
+                "mapPos": [
+                    9,
+                    103
+                ],
+                "region": "us-east-1",
+                "memory": 128,
+                "mRequests": 10,
+                "computeDuration": 0.5,
+                "architecture": "x86_64"
+            },
+            {
+                "type": "lambda",
+                "id": "688f3ce2-2849-4676-ade1-1f07e1fdb14f",
+                "arn": "arn:aws:lambda:us-east-1:242690085300:function:testAdmin",
+                "mapPos": [
+                    12,
+                    103
+                ],
+                "region": "us-east-1",
+                "memory": 512,
+                "mRequests": 10,
+                "computeDuration": 0.5,
+                "architecture": "x86_64"
+            },
+            {
+                "type": "s3",
+                "id": "8414c268-c36f-4b2b-9f95-66762447d2c3",
+                "arn": "arn:aws:s3::242690085300:zaxbys-lambda-config",
+                "mapPos": [
+                    15,
+                    103
+                ],
+                "region": "us-east-1",
+                "volumeType": "Standard",
+                "dataGb": 10,
+                "putCopyPostRequests": 0,
+                "getAndOtherRequests": 0,
+                "lifecycleTransitions": 0
+            },
+            {
+                "type": "s3",
+                "id": "106d10eb-abba-4531-9655-e711dda07b1f",
+                "arn": "arn:aws:s3::242690085300:zaxbys-braze-fonts-dev",
+                "mapPos": [
+                    18,
+                    103
+                ],
+                "region": "us-east-1",
+                "volumeType": "Standard",
+                "dataGb": 10,
+                "putCopyPostRequests": 0,
+                "getAndOtherRequests": 0,
+                "lifecycleTransitions": 0
+            },
+            {
+                "type": "snstopic",
+                "id": "4947515d-77c1-4f9d-8a6e-b7ee87e2a94c",
+                "arn": "arn:aws:sns:us-east-1:242690085300:twowaytext",
+                "mapPos": [
+                    21,
+                    103
+                ],
+                "region": "us-east-1",
+                "requests": 1
+            },
+            {
+                "type": "lambda",
+                "id": "808ebbb8-9808-4fd8-9ac2-5f56e87ee97a",
+                "arn": "arn:aws:lambda:us-east-1:242690085300:function:import_dbusers",
+                "mapPos": [
+                    6,
+                    106
+                ],
+                "region": "us-east-1",
+                "memory": 128,
+                "mRequests": 10,
+                "computeDuration": 0.5,
+                "architecture": "x86_64"
+            },
+            {
+                "type": "lambda",
+                "id": "2557d0a6-5e18-4c62-b8d5-e558ddfb3eac",
+                "arn": "arn:aws:lambda:us-east-1:242690085300:function:cs-lambda-registration",
+                "mapPos": [
+                    9,
+                    106
+                ],
+                "region": "us-east-1",
+                "memory": 128,
+                "mRequests": 10,
+                "computeDuration": 0.5,
+                "architecture": "x86_64"
+            },
+            {
+                "type": "lambda",
+                "id": "4a329ada-9938-4aac-beaf-2908252c5fb7",
+                "arn": "arn:aws:lambda:us-east-1:242690085300:function:WebBasicAuthFn",
+                "mapPos": [
+                    12,
+                    106
+                ],
+                "region": "us-east-1",
+                "memory": 128,
+                "mRequests": 10,
+                "computeDuration": 0.5,
+                "architecture": "x86_64"
+            },
+            {
+                "type": "s3",
+                "id": "15f3fa49-2c4a-4efc-aa9c-94c8e392ff60",
+                "arn": "arn:aws:s3::242690085300:cloudfix-fixer-executions242690085300",
+                "mapPos": [
+                    15,
+                    106
+                ],
+                "region": "us-east-1",
+                "volumeType": "Standard",
+                "dataGb": 10,
+                "putCopyPostRequests": 0,
+                "getAndOtherRequests": 0,
+                "lifecycleTransitions": 0
+            },
+            {
+                "type": "s3",
+                "id": "b6984397-884b-4da3-8463-fa90dba360f3",
+                "arn": "arn:aws:s3::242690085300:zaxbys-admin-frontend",
+                "mapPos": [
+                    18,
+                    106
+                ],
+                "region": "us-east-1",
+                "volumeType": "Standard",
+                "dataGb": 10,
+                "putCopyPostRequests": 0,
+                "getAndOtherRequests": 0,
+                "lifecycleTransitions": 0
+            },
+            {
+                "type": "lambda",
+                "id": "fea71c0d-ee30-4520-befe-ab1b19f7cce4",
+                "arn": "arn:aws:lambda:us-east-1:242690085300:function:authorizer-lambda",
+                "mapPos": [
+                    6,
+                    109
+                ],
+                "region": "us-east-1",
+                "memory": 128,
+                "mRequests": 10,
+                "computeDuration": 0.5,
+                "architecture": "x86_64"
+            },
+            {
+                "type": "lambda",
+                "id": "790c718a-cff6-4225-a2d2-82a39525b40b",
+                "arn": "arn:aws:lambda:us-east-1:242690085300:function:DatadogIntegration-DatadogA-DatadogAPICallFunction-dWazTrHw5RLI",
+                "mapPos": [
+                    9,
+                    109
+                ],
+                "region": "us-east-1",
+                "memory": 128,
+                "mRequests": 10,
+                "computeDuration": 0.5,
+                "architecture": "x86_64"
+            },
+            {
+                "type": "lambda",
+                "id": "8943a9e4-24f0-4217-ad0a-a06cfbc62647",
+                "arn": "arn:aws:lambda:us-east-1:242690085300:function:sftp-transfer-s3-auth",
+                "mapPos": [
+                    12,
+                    109
+                ],
+                "region": "us-east-1",
+                "memory": 128,
+                "mRequests": 10,
+                "computeDuration": 0.5,
+                "architecture": "x86_64"
+            },
+            {
+                "type": "s3",
+                "id": "aad50174-e358-46fd-a5a4-00bad81bcbf5",
+                "arn": "arn:aws:s3::242690085300:zaxbys-spreadsheet-dev",
+                "mapPos": [
+                    15,
+                    109
+                ],
+                "region": "us-east-1",
+                "volumeType": "Standard",
+                "dataGb": 10,
+                "putCopyPostRequests": 0,
+                "getAndOtherRequests": 0,
+                "lifecycleTransitions": 0
+            },
+            {
+                "type": "s3",
+                "id": "025ebb08-a823-41f9-ac07-ee2a45cd6855",
+                "arn": "arn:aws:s3::242690085300:avm-comment-sentiment-data",
+                "mapPos": [
+                    18,
+                    109
+                ],
+                "region": "us-east-1",
+                "volumeType": "Standard",
+                "dataGb": 10,
+                "putCopyPostRequests": 0,
+                "getAndOtherRequests": 0,
+                "lifecycleTransitions": 0
+            }
+        ],
+        "text": [
+            {
+                "id": "14d6a8ef-db49-468d-90d9-46a20f165979",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "aad50174-e358-46fd-a5a4-00bad81bcbf5",
+                    "offset": [
+                        -1.26,
+                        0.7
+                    ]
+                },
+                "text": "zaxbys-spreadsheet-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "47a74df3-d68b-4689-8fa5-fb37fd1766cd",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "25b34717-3d81-4bdd-9162-355a0f1824e7",
+                    "offset": [
+                        -0.38,
+                        1
+                    ]
+                },
+                "text": "cs-cli-host",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "2d88baf2-67b1-4e9c-b0c3-41ceb3517f51",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "4d2a01c4-85e0-484d-9ce2-58fd10b3f1e3",
+                    "offset": [
+                        -0.38,
+                        1
+                    ]
+                },
+                "text": "echo-lambda",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "a6f1ea0b-831f-48f0-ae1a-997643fbf643",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "15f3fa49-2c4a-4efc-aa9c-94c8e392ff60",
+                    "offset": [
+                        -2.46,
+                        0.7
+                    ]
+                },
+                "text": "cloudfix-fixer-executions242690085300",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "6e1b291f-f935-492e-a820-77bea04f673e",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "8d440cdc-92a2-42f3-8f93-75e1c1946cc5",
+                    "offset": [
+                        -0.38,
+                        1
+                    ]
+                },
+                "text": "cache-clear",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "47eee676-0957-4663-8cd2-d40974e5f235",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "58d1355f-1d03-4b8b-b56f-1a52814fe677",
+                    "offset": [
+                        -0.84,
+                        0.77
+                    ]
+                },
+                "text": "zaxbys-dev-nat-gateway",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "111cb2cd-1649-4b02-8471-933a5af7714d",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "1599d4ca-cef4-4105-984a-f43ae7f0709b",
+                    "offset": [
+                        -2.38,
+                        1
+                    ]
+                },
+                "text": "metric_changes_cloud_watch_alarm_dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "86a21c35-c4d0-453c-9c48-73c04d0c544b",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "6dd203dc-a8b9-41dc-9487-2b56a2117db9",
+                    "offset": [
+                        -0.38,
+                        1
+                    ]
+                },
+                "text": "eks-efs-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "b8691a35-15f2-4f2d-be74-2ea607991bbf",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "ce29ba84-2dc7-46c8-ad73-7e31f71ee27f",
+                    "offset": [
+                        -1.745,
+                        0.83
+                    ]
+                },
+                "text": "dlmnc66lesi1g.cloudfront.net",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "11a78ed5-a890-4e0c-b5ec-02cd6978c6f6",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "f55ad9a9-cb3f-46a5-9454-8a54b0c98465",
+                    "offset": [
+                        -1.26,
+                        1
+                    ]
+                },
+                "text": "ext-apps-nodegroup-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "871cf49f-5c75-4942-b602-11dea8416447",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "92cec377-986b-4ced-b61e-1c90043ef3ea",
+                    "offset": [
+                        -1.8250000000000002,
+                        0.83
+                    ]
+                },
+                "text": "d2chxxhigh5z35.cloudfront.net",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "ac2ea4da-b3b3-4afd-8770-c09fe614f96c",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "5a3a15e4-1df2-4037-a0c9-fecd79aa4935",
+                    "offset": [
+                        0.43500000000000005,
+                        0.77
+                    ]
+                },
+                "text": "cs-igw",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "1b4eb7c7-f043-4b76-bf1b-0f64c230a380",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "4947515d-77c1-4f9d-8a6e-b7ee87e2a94c",
+                    "offset": [
+                        -0.30000000000000004,
+                        1
+                    ]
+                },
+                "text": "twowaytext",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "c4e23992-044c-4c1f-8aad-7b839538b728",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "abc3babc-52d3-4090-8ec2-194518d64664",
+                    "offset": [
+                        -0.38,
+                        1
+                    ]
+                },
+                "text": "bastion-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "72e78183-2dd9-4fb3-b28e-7d93a2d6da85",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "165ab37a-e38e-4174-ac9b-9d9cc598c508",
+                    "offset": [
+                        -1.1,
+                        1
+                    ]
+                },
+                "text": "frontend-alb-ingress",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "b04ed7c2-5ec1-44a5-9b08-a02aced4565c",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "78372333-234b-42fb-89ab-6372c73d4689",
+                    "offset": [
+                        -0.865,
+                        1
+                    ]
+                },
+                "text": "eks-nodegroup-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "7685b2e5-6dfe-48b9-95b6-5af599efbed0",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "44b8f0bb-9a65-473b-b357-8dbe966a3b45",
+                    "offset": [
+                        -0.20000000000000007,
+                        0.77
+                    ]
+                },
+                "text": "zaxbys-dev-igw",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "fd2b7252-982f-4068-8f26-2f8942583ffd",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "dda92ef6-3cf3-4662-8d04-c1dfe857e308",
+                    "offset": [
+                        -1.58,
+                        0.7
+                    ]
+                },
+                "text": "zaxbys-cloudfront-logs-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "059ab285-b611-4293-804e-5cda6d19248f",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "fc11c1a8-49ff-492f-8a18-605fd116be90",
+                    "offset": [
+                        -1.18,
+                        1
+                    ]
+                },
+                "text": "microservices-nlb-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "83f16381-a0ad-418b-a26d-9d1d22ee262d",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "f2a8e32d-93e6-4f8e-bf7c-98eca77f4e36",
+                    "offset": [
+                        -1.8250000000000002,
+                        1
+                    ]
+                },
+                "text": "zaxbys-aws-waf-cloudfront-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "cb8710c1-8b2a-4598-aaf4-b6c5d13513e1",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "790c718a-cff6-4225-a2d2-82a39525b40b",
+                    "offset": [
+                        -4.54,
+                        1
+                    ]
+                },
+                "text": "DatadogIntegration-DatadogA-DatadogAPICallFunction-dWazTrHw5RLI",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "01b5e8af-279c-4eb8-99a7-09b7304925c9",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "7d9c5768-4d6b-47b3-8bdd-58eaef6faf05",
+                    "offset": [
+                        -2.6399999999999997,
+                        1.1400000000000001
+                    ]
+                },
+                "text": "eks-eks-nodegroup-dev-42c19aa8-ce9b-8427-4d09-d556932db6f1",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "9d1fd09d-7213-4257-92fd-e11496d8f8a3",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "9c68343a-af69-4b5c-a677-65d467f4551d",
+                    "offset": [
+                        -1.1600000000000001,
+                        0.77
+                    ]
+                },
+                "text": "zaxbys-webhook-data-manual",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "0329aedd-68de-4355-af2e-a9312266a38e",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "4189b3f7-77b0-425b-94f5-d61064de5640",
+                    "offset": [
+                        -0.6200000000000001,
+                        1
+                    ]
+                },
+                "text": "dev.zaxbys.com",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "7baf141e-5783-4294-af33-3efaed386c8d",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "e997d255-bbc7-434d-8169-7fa3bc429a5b",
+                    "offset": [
+                        -1.745,
+                        0.83
+                    ]
+                },
+                "text": "dve4lrwxlqhgj.cloudfront.net",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "468a77e7-4c53-4b18-a634-a677a4090b90",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "2aecf3ae-4779-40f6-9c42-10a4a1b66fc9",
+                    "offset": [
+                        -1.8250000000000002,
+                        0.83
+                    ]
+                },
+                "text": "d1tvp6lc70pgla.cloudfront.net",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "4fa0b060-bf4f-407d-b44a-92ab12049d03",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "fc0d863c-8197-4fec-96bc-988270c2e71d",
+                    "offset": [
+                        -1.58,
+                        0.7
+                    ]
+                },
+                "text": "zaxbys-datalake-dev-manual",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "ca78971f-791f-4c55-b734-c6f7a9599b6c",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "291f8631-248b-4daf-9ba6-00c84a6a21e1",
+                    "offset": [
+                        -4.54,
+                        1
+                    ]
+                },
+                "text": "DatadogIntegration-ForwarderStack-HZKX8Y-Forwarder-VEzvElavXdMu",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "bc25bb91-ce8d-4476-a06d-4ea4893e25dd",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "025ebb08-a823-41f9-ac07-ee2a45cd6855",
+                    "offset": [
+                        -1.58,
+                        0.7
+                    ]
+                },
+                "text": "avm-comment-sentiment-data",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "a6cd6991-9aba-491d-85e4-b84908e5e080",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "91eb8276-0ede-4e1d-a703-75afb38aa114",
+                    "offset": [
+                        -1.58,
+                        0.7
+                    ]
+                },
+                "text": "config-bucket-242690085300",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "1509be32-255a-4478-b555-ef0187294af0",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "b523d97e-b8aa-4813-8d6a-4dd370de5762",
+                    "offset": [
+                        -0.865,
+                        1
+                    ]
+                },
+                "text": "microservices-nlb",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "d0f665e1-c50b-4688-aa65-56924574622e",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "bec1c76a-c4c1-44e9-824c-d106a5a71b7e",
+                    "offset": [
+                        -0.7050000000000001,
+                        0.7
+                    ]
+                },
+                "text": "zaxbys-test-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "4eacbf1a-184d-4f40-a010-049cfc639c8c",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "a772e4f5-096a-4451-8321-6ffc4c22d688",
+                    "offset": [
+                        -1.26,
+                        1
+                    ]
+                },
+                "text": "vpce-056d989750640a651",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "f81068b4-d2c0-43f9-8e4d-a59c537abfbf",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "1324e967-8f33-407a-96a7-e4247e9c9a0b",
+                    "offset": [
+                        -1.34,
+                        0.7
+                    ]
+                },
+                "text": "zaxbys-datadog-logs-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "7f77552c-a653-4ad5-a40c-67ba9eeabd42",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "8414c268-c36f-4b2b-9f95-66762447d2c3",
+                    "offset": [
+                        -1.1,
+                        0.7
+                    ]
+                },
+                "text": "zaxbys-lambda-config",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "142f921d-d508-4724-8953-a857fc57d8b4",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "71c7c7f8-d1fe-42d8-9ab1-a81d2a3c3b61",
+                    "offset": [
+                        -0.865,
+                        1
+                    ]
+                },
+                "text": "eks-nodegroup-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "f456bf90-1f7d-40fb-bb14-d420b6b12277",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "188ac4cf-344a-498b-885f-5ff8d112933b",
+                    "offset": [
+                        -1.18,
+                        1
+                    ]
+                },
+                "text": "vol-0f5d00649caeea853",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "af115194-f5e7-4eea-91ce-090758cbde5b",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "b50e291b-ee28-4adc-ac36-d1f4e13c024e",
+                    "offset": [
+                        -1.18,
+                        1
+                    ]
+                },
+                "text": "vol-044c5d6b6783ce745",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "6bf7db06-94c4-4d43-bade-88152ba89119",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "b3ce5f72-7ea0-4097-81fb-e43fd6bf7c2e",
+                    "offset": [
+                        -0.7599999999999999,
+                        0.77
+                    ]
+                },
+                "text": "igw-0e07bec7f840f294c",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "d5966860-1f57-414a-8872-950c75dee6b0",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "ac3a2c24-baf1-4149-92b3-caa0ad3b3abf",
+                    "offset": [
+                        -1.18,
+                        1
+                    ]
+                },
+                "text": "vol-0a3fc1465900b3a41",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "3a4273e7-f1a9-442d-afa6-0bdf2d775472",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "832f155b-4fc0-437a-860f-c081149dc8ff",
+                    "offset": [
+                        -1.26,
+                        0.7
+                    ]
+                },
+                "text": "zaxbys-datalake-manual",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "12f57086-f2ec-41ac-8a4b-e277ff9d11d6",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "106d10eb-abba-4531-9655-e711dda07b1f",
+                    "offset": [
+                        -1.26,
+                        0.7
+                    ]
+                },
+                "text": "zaxbys-braze-fonts-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "220e2649-836a-4e0c-beda-dbd13f8ca83f",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "bbc737cd-d414-4a3d-85ea-c18830fa705d",
+                    "offset": [
+                        -1.26,
+                        1
+                    ]
+                },
+                "text": "ext-apps-nodegroup-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "d0ef0ddb-27e1-4c9e-a583-c513538b9ff3",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "686a28a6-749c-46a2-9b53-0767dc62af68",
+                    "offset": [
+                        -1.26,
+                        1
+                    ]
+                },
+                "text": "ext-apps-nodegroup-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "200e5e3a-2989-4af1-960c-000764ce7d7b",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "8943a9e4-24f0-4217-ad0a-a06cfbc62647",
+                    "offset": [
+                        -1.18,
+                        1
+                    ]
+                },
+                "text": "sftp-transfer-s3-auth",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "eb447757-e08b-427e-9aab-edb329842b77",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "d851ef91-13ea-47d2-8735-f26b4553cee3",
+                    "offset": [
+                        -0.865,
+                        0.7
+                    ]
+                },
+                "text": "zaxbys-emails-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "bfe171d1-4a91-4f24-aa59-ae8a0835b956",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "2d8c6fb0-7406-4dcd-bbb8-7ed2e8582e1f",
+                    "offset": [
+                        -1.26,
+                        1
+                    ]
+                },
+                "text": "ext-apps-nodegroup-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "f82a5b79-4397-4625-aa24-bbebd8465607",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "2557d0a6-5e18-4c62-b8d5-e558ddfb3eac",
+                    "offset": [
+                        -1.26,
+                        1
+                    ]
+                },
+                "text": "cs-lambda-registration",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "9dded13a-9178-4bc6-af45-6ac29b027eb7",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "d7b6e14a-24fe-4279-bad9-5c70f2f32bfa",
+                    "offset": [
+                        -1.26,
+                        1
+                    ]
+                },
+                "text": "vpce-067134fbbc0a0ff09",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "95b3457e-be26-4afc-bc2b-1d285974da5b",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "d32b0237-ed96-4de8-9899-ce975b63d74f",
+                    "offset": [
+                        -1.29,
+                        1.1400000000000001
+                    ]
+                },
+                "text": "eks-ext-apps-nodegroup-dev-cac19aa8-ce99-b818-42e4-bc90d48e6c7a",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "acab8c65-9204-452d-be53-1832b9a5db23",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "d4f54e3c-8865-406e-9f9d-59ca6bd25c12",
+                    "offset": [
+                        -1.5,
+                        1
+                    ]
+                },
+                "text": "zaxbys-aurora-cluster-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "875f85fc-87d1-4e42-a7f6-a6365470b09f",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "4a329ada-9938-4aac-beaf-2908252c5fb7",
+                    "offset": [
+                        -0.6200000000000001,
+                        1
+                    ]
+                },
+                "text": "WebBasicAuthFn",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "7539b1a0-b008-473e-9b79-a2f752963950",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "a8b46437-f0a8-4cd3-8dc3-842b9566937c",
+                    "offset": [
+                        -1.34,
+                        1
+                    ]
+                },
+                "text": "zaxbys-microservice-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "b21bdde4-e8ad-40e7-9239-c32b22ba998c",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "3cb2eea1-a0d6-4af3-b026-45b2d4a899ce",
+                    "offset": [
+                        -4.46,
+                        0.7
+                    ]
+                },
+                "text": "datadogintegration-forwarderstack-forwarderbucket-qk2ob3wfzh4x",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "d46ee7a8-e279-4bed-86eb-72d21bcc23b0",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "4840796a-7f03-49cd-9d10-80627053dff8",
+                    "offset": [
+                        -1.8250000000000002,
+                        1
+                    ]
+                },
+                "text": "zaxbys-aws-waf-cloudfront-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "1636270a-9b56-4bfe-bb21-4bb3ba966a2a",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "1a7d66b1-a1ef-4d27-b6cb-737afdce8c28",
+                    "offset": [
+                        -0.865,
+                        1
+                    ]
+                },
+                "text": "get-config-lambda",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "c2ea7832-737b-4ea5-a4d6-6b921ac7e087",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "8a492a9d-8482-480e-a6a1-b41302167e6d",
+                    "offset": [
+                        -0.84,
+                        0.77
+                    ]
+                },
+                "text": "zaxbys-dev-nat-gateway",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "6e592f46-e9ac-4c17-8eeb-af88b4cd3d6f",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "cf8ab46c-5550-4606-88fd-97afea9fdb88",
+                    "offset": [
+                        -1.8250000000000002,
+                        1
+                    ]
+                },
+                "text": "terraform-states-242690085300",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "f368e981-ae25-4dee-a7bb-a6eab8c49d28",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "fea71c0d-ee30-4520-befe-ab1b19f7cce4",
+                    "offset": [
+                        -0.865,
+                        1
+                    ]
+                },
+                "text": "authorizer-lambda",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "315e367a-fcde-4a8d-827e-b0da98f04292",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "24e8967e-7ec4-4907-9f01-4314e6297c5c",
+                    "offset": [
+                        0.675,
+                        0.77
+                    ]
+                },
+                "text": "api",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "79f6c345-4b26-4ac6-89c8-66bb512abe1a",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "174d17a1-abac-4b98-886b-6ac6c6cd5b5f",
+                    "offset": [
+                        -0.84,
+                        0.77
+                    ]
+                },
+                "text": "zaxbys-dev-nat-gateway",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "daad5441-ad21-4767-baf0-60827dd037d7",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "a66ec994-4315-40a1-b431-e4d4818601c3",
+                    "offset": [
+                        -0.6200000000000001,
+                        0.83
+                    ]
+                },
+                "text": "CMS Cloudfront",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "fbc16791-8edb-4b2c-8b62-b83a48b5ad7a",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "ec3bb25d-b823-4841-a662-43219a97d63f",
+                    "offset": [
+                        -0.28500000000000003,
+                        0.77
+                    ]
+                },
+                "text": "echo-api-manual",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "3bd4d412-eaa7-45fe-9b34-7279da9f1b7e",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "b69b804c-f81d-40cb-99cc-ea916785253f",
+                    "offset": [
+                        -1.02,
+                        1
+                    ]
+                },
+                "text": "i-0f42b2512659e3a9a",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "d6cc83f0-d1fc-4559-9d08-44695ed27cb0",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "688f3ce2-2849-4676-ade1-1f07e1fdb14f",
+                    "offset": [
+                        -0.21999999999999997,
+                        1
+                    ]
+                },
+                "text": "testAdmin",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "fe0c4ee4-ac46-4973-b237-72ff4233fbe0",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "c741099a-5f91-4158-9475-5b02b3710214",
+                    "offset": [
+                        -0.865,
+                        1
+                    ]
+                },
+                "text": "eks-nodegroup-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "6e72ef90-8fa3-470d-92cd-b5bba37a6f63",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "e1a532ab-a393-4f2f-a52c-3c933469e2b8",
+                    "offset": [
+                        -0.7050000000000001,
+                        1
+                    ]
+                },
+                "text": "cs-misp-cluster",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "2e05f649-a996-4954-83ae-ab4adab5e43d",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "3902260f-7f1e-476c-abfc-c22a2d00a94d",
+                    "offset": [
+                        -0.6200000000000001,
+                        0.7
+                    ]
+                },
+                "text": "zaxbys-cms-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "3d8e657f-4dfd-4c2d-9fc3-d07be3e64712",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "808ebbb8-9808-4fd8-9ac2-5f56e87ee97a",
+                    "offset": [
+                        -0.6200000000000001,
+                        1
+                    ]
+                },
+                "text": "import_dbusers",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "19cbd737-cc09-489b-8b7d-96f70d78e542",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "375535b9-0dcb-4567-96af-62bc163ead0e",
+                    "offset": [
+                        -0.21999999999999997,
+                        1
+                    ]
+                },
+                "text": "SFTP-Auth",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "48aa2055-4567-40f6-bc49-4bf313c09f77",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "1bb4122d-0e70-45df-84d0-c2b854ddb0a7",
+                    "offset": [
+                        -1.9849999999999999,
+                        1
+                    ]
+                },
+                "text": "zaxbys-aws-waf-loadbalancer-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "c89311b4-2557-45ee-a4fd-fce71cf39d91",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "06cc7026-d3b6-4777-9a7b-744d790acf25",
+                    "offset": [
+                        -1.26,
+                        0.83
+                    ]
+                },
+                "text": "Web and CMS Cloudfront",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "61b54b34-0fab-445f-a91a-d8c3ea405f78",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "4df266db-17bc-4d5a-9ef2-bdc36fd06e3c",
+                    "offset": [
+                        -1.34,
+                        1
+                    ]
+                },
+                "text": "zaxbys-microservice-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "ccf6224d-d03f-4747-86fb-fd8174e52a86",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "868c5c29-b7f9-43be-bb46-1a7855424694",
+                    "offset": [
+                        -3.02,
+                        1
+                    ]
+                },
+                "text": "metric_changes_cloud_watch_alarm_dev (Email)",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "180c1e72-acf3-4761-86c1-cf85ae0593e4",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "461387b3-8559-4298-b23e-0e6c3c54c638",
+                    "offset": [
+                        -1.26,
+                        1
+                    ]
+                },
+                "text": "ext-apps-nodegroup-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "3b18bfe4-1f51-41c5-878e-3ad62b4d807b",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "a0830398-ae60-4fae-861e-aa9e018e2983",
+                    "offset": [
+                        -1.26,
+                        1
+                    ]
+                },
+                "text": "ext-apps-nodegroup-dev",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "153fcd1b-a62f-4da6-a33a-16b4b2469f36",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "b6984397-884b-4da3-8463-fa90dba360f3",
+                    "offset": [
+                        -1.18,
+                        0.7
+                    ]
+                },
+                "text": "zaxbys-admin-frontend",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "42db72e4-7ad4-4aa2-b29e-3b72e9aec5da",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "89500642-93ad-4436-9c20-0c15401e7d19",
+                    "offset": [
+                        -1.08,
+                        0.77
+                    ]
+                },
+                "text": "microservices-api-dev-pvt",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            },
+            {
+                "id": "08281013-06cf-4079-a750-1d52c768c81b",
+                "type": "isotext",
+                "mapPos": {
+                    "relTo": "dba86fab-0031-426d-be75-b667fe9522ad",
+                    "offset": [
+                        -1.8250000000000002,
+                        0.7
+                    ]
+                },
+                "text": "terraform-states-242690085300",
+                "textSize": 16,
+                "direction": "down",
+                "isometric": true,
+                "standing": false,
+                "outline": true
+            }
+        ],
+        "images": [],
+        "icons": [],
+        "edges": [
+            {
+                "type": "edge",
+                "from": "165ab37a-e38e-4174-ac9b-9d9cc598c508",
+                "to": "7714e7c6-2f5f-44e6-bdf1-d713dd8e0c90",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "832f155b-4fc0-437a-860f-c081149dc8ff",
+                "to": "1599d4ca-cef4-4105-984a-f43ae7f0709b",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "06cc7026-d3b6-4777-9a7b-744d790acf25",
+                "to": "3902260f-7f1e-476c-abfc-c22a2d00a94d",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "4189b3f7-77b0-425b-94f5-d61064de5640",
+                "to": "24e8967e-7ec4-4907-9f01-4314e6297c5c",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "4189b3f7-77b0-425b-94f5-d61064de5640",
+                "to": "e997d255-bbc7-434d-8169-7fa3bc429a5b",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "4189b3f7-77b0-425b-94f5-d61064de5640",
+                "to": "a66ec994-4315-40a1-b431-e4d4818601c3",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "165ab37a-e38e-4174-ac9b-9d9cc598c508",
+                "to": "535273bb-1878-4a78-867d-a5c9f45d09e9",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "4189b3f7-77b0-425b-94f5-d61064de5640",
+                "to": "06cc7026-d3b6-4777-9a7b-744d790acf25",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "a93b6e36-1846-4806-b4ce-b80ad762f4a8",
+                "to": "461387b3-8559-4298-b23e-0e6c3c54c638",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "165ab37a-e38e-4174-ac9b-9d9cc598c508",
+                "to": "1cf5c093-23fb-4a2b-9ec5-0515a613b373",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "b523d97e-b8aa-4813-8d6a-4dd370de5762",
+                "to": "99931624-435b-4108-928e-4d96f246e312",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "165ab37a-e38e-4174-ac9b-9d9cc598c508",
+                "to": "c38cf5b0-b696-4094-8f96-a50303fbce4a",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "24e8967e-7ec4-4907-9f01-4314e6297c5c",
+                "to": "1bb4122d-0e70-45df-84d0-c2b854ddb0a7",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "8c5fc15b-32f2-4f18-9bfb-6d29a692c3c1",
+                "to": "f55ad9a9-cb3f-46a5-9454-8a54b0c98465",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "4189b3f7-77b0-425b-94f5-d61064de5640",
+                "to": "2aecf3ae-4779-40f6-9c42-10a4a1b66fc9",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "535273bb-1878-4a78-867d-a5c9f45d09e9",
+                "to": "78372333-234b-42fb-89ab-6372c73d4689",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "b523d97e-b8aa-4813-8d6a-4dd370de5762",
+                "to": "a93b6e36-1846-4806-b4ce-b80ad762f4a8",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "1324e967-8f33-407a-96a7-e4247e9c9a0b",
+                "to": "291f8631-248b-4daf-9ba6-00c84a6a21e1",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "b523d97e-b8aa-4813-8d6a-4dd370de5762",
+                "to": "8c5fc15b-32f2-4f18-9bfb-6d29a692c3c1",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "2aecf3ae-4779-40f6-9c42-10a4a1b66fc9",
+                "to": "24e8967e-7ec4-4907-9f01-4314e6297c5c",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "bec1c76a-c4c1-44e9-824c-d106a5a71b7e",
+                "to": "1599d4ca-cef4-4105-984a-f43ae7f0709b",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "165ab37a-e38e-4174-ac9b-9d9cc598c508",
+                "to": "99931624-435b-4108-928e-4d96f246e312",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "c38cf5b0-b696-4094-8f96-a50303fbce4a",
+                "to": "71c7c7f8-d1fe-42d8-9ab1-a81d2a3c3b61",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "25b34717-3d81-4bdd-9162-355a0f1824e7",
+                "to": "b50e291b-ee28-4adc-ac36-d1f4e13c024e",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "91eb8276-0ede-4e1d-a703-75afb38aa114",
+                "to": "1599d4ca-cef4-4105-984a-f43ae7f0709b",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "9c68343a-af69-4b5c-a677-65d467f4551d",
+                "to": "1bb4122d-0e70-45df-84d0-c2b854ddb0a7",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "1cf5c093-23fb-4a2b-9ec5-0515a613b373",
+                "to": "686a28a6-749c-46a2-9b53-0767dc62af68",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "06cc7026-d3b6-4777-9a7b-744d790acf25",
+                "to": "4840796a-7f03-49cd-9d10-80627053dff8",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "70101fa3-fbdd-48f2-ad25-593ddd1f9472",
+                "to": "a0830398-ae60-4fae-861e-aa9e018e2983",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "165ab37a-e38e-4174-ac9b-9d9cc598c508",
+                "to": "8c5fc15b-32f2-4f18-9bfb-6d29a692c3c1",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "165ab37a-e38e-4174-ac9b-9d9cc598c508",
+                "to": "1324e967-8f33-407a-96a7-e4247e9c9a0b",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "99931624-435b-4108-928e-4d96f246e312",
+                "to": "c741099a-5f91-4158-9475-5b02b3710214",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "a66ec994-4315-40a1-b431-e4d4818601c3",
+                "to": "4840796a-7f03-49cd-9d10-80627053dff8",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "24e8967e-7ec4-4907-9f01-4314e6297c5c",
+                "to": "1a7d66b1-a1ef-4d27-b6cb-737afdce8c28",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "3cb2eea1-a0d6-4af3-b026-45b2d4a899ce",
+                "to": "1599d4ca-cef4-4105-984a-f43ae7f0709b",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "165ab37a-e38e-4174-ac9b-9d9cc598c508",
+                "to": "a93b6e36-1846-4806-b4ce-b80ad762f4a8",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "ec3bb25d-b823-4841-a662-43219a97d63f",
+                "to": "4d2a01c4-85e0-484d-9ce2-58fd10b3f1e3",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "b523d97e-b8aa-4813-8d6a-4dd370de5762",
+                "to": "0b64881a-31cf-4084-ae55-60de53657567",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "0b64881a-31cf-4084-ae55-60de53657567",
+                "to": "2d8c6fb0-7406-4dcd-bbb8-7ed2e8582e1f",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "abc3babc-52d3-4090-8ec2-194518d64664",
+                "to": "ac3a2c24-baf1-4149-92b3-caa0ad3b3abf",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "id": "5c208135-7dd6-41a9-830e-bd51ea39ea5d-d32b0237-ed96-4de8-9899-ce975b63d74f",
+                "type": "autoedge",
+                "from": "5c208135-7dd6-41a9-830e-bd51ea39ea5d",
+                "to": "d32b0237-ed96-4de8-9899-ce975b63d74f",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "2aecf3ae-4779-40f6-9c42-10a4a1b66fc9",
+                "to": "f2a8e32d-93e6-4f8e-bf7c-98eca77f4e36",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "7714e7c6-2f5f-44e6-bdf1-d713dd8e0c90",
+                "to": "bbc737cd-d414-4a3d-85ea-c18830fa705d",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "b523d97e-b8aa-4813-8d6a-4dd370de5762",
+                "to": "70101fa3-fbdd-48f2-ad25-593ddd1f9472",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "92cec377-986b-4ced-b61e-1c90043ef3ea",
+                "to": "4840796a-7f03-49cd-9d10-80627053dff8",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "3902260f-7f1e-476c-abfc-c22a2d00a94d",
+                "to": "1599d4ca-cef4-4105-984a-f43ae7f0709b",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "e997d255-bbc7-434d-8169-7fa3bc429a5b",
+                "to": "f2a8e32d-93e6-4f8e-bf7c-98eca77f4e36",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "165ab37a-e38e-4174-ac9b-9d9cc598c508",
+                "to": "0b64881a-31cf-4084-ae55-60de53657567",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "06cc7026-d3b6-4777-9a7b-744d790acf25",
+                "to": "165ab37a-e38e-4174-ac9b-9d9cc598c508",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "a66ec994-4315-40a1-b431-e4d4818601c3",
+                "to": "165ab37a-e38e-4174-ac9b-9d9cc598c508",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "id": "5c208135-7dd6-41a9-830e-bd51ea39ea5d-7d9c5768-4d6b-47b3-8bdd-58eaef6faf05",
+                "type": "autoedge",
+                "from": "5c208135-7dd6-41a9-830e-bd51ea39ea5d",
+                "to": "7d9c5768-4d6b-47b3-8bdd-58eaef6faf05",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "dda92ef6-3cf3-4662-8d04-c1dfe857e308",
+                "to": "1599d4ca-cef4-4105-984a-f43ae7f0709b",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "e997d255-bbc7-434d-8169-7fa3bc429a5b",
+                "to": "165ab37a-e38e-4174-ac9b-9d9cc598c508",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "92cec377-986b-4ced-b61e-1c90043ef3ea",
+                "to": "89500642-93ad-4436-9c20-0c15401e7d19",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "b523d97e-b8aa-4813-8d6a-4dd370de5762",
+                "to": "7714e7c6-2f5f-44e6-bdf1-d713dd8e0c90",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "dba86fab-0031-426d-be75-b667fe9522ad",
+                "to": "1599d4ca-cef4-4105-984a-f43ae7f0709b",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "b69b804c-f81d-40cb-99cc-ea916785253f",
+                "to": "188ac4cf-344a-498b-885f-5ff8d112933b",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "165ab37a-e38e-4174-ac9b-9d9cc598c508",
+                "to": "70101fa3-fbdd-48f2-ad25-593ddd1f9472",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "b523d97e-b8aa-4813-8d6a-4dd370de5762",
+                "to": "535273bb-1878-4a78-867d-a5c9f45d09e9",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "b523d97e-b8aa-4813-8d6a-4dd370de5762",
+                "to": "1cf5c093-23fb-4a2b-9ec5-0515a613b373",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "d851ef91-13ea-47d2-8735-f26b4553cee3",
+                "to": "1599d4ca-cef4-4105-984a-f43ae7f0709b",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "1599d4ca-cef4-4105-984a-f43ae7f0709b",
+                "to": "868c5c29-b7f9-43be-bb46-1a7855424694",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "b523d97e-b8aa-4813-8d6a-4dd370de5762",
+                "to": "c38cf5b0-b696-4094-8f96-a50303fbce4a",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "89500642-93ad-4436-9c20-0c15401e7d19",
+                "to": "1bb4122d-0e70-45df-84d0-c2b854ddb0a7",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            },
+            {
+                "type": "edge",
+                "from": "fc0d863c-8197-4fec-96bc-988270c2e71d",
+                "to": "1599d4ca-cef4-4105-984a-f43ae7f0709b",
+                "width": 2,
+                "dashed": false,
+                "endCap": "arrow"
+            }
+        ],
+        "groups": [
+            {
+                "type": "asg",
+                "id": "7d9c5768-4d6b-47b3-8bdd-58eaef6faf05",
+                "arn": "arn:aws:autoscaling:us-east-1:242690085300:autoScalingGroup:cd95716f-613a-4d84-89ca-0943d12107d4:autoScalingGroupName/eks-eks-nodegroup-dev-42c19aa8-ce9b-8427-4d09-d556932db6f1",
+                "mapPos": [
+                    58,
+                    8
+                ],
+                "region": "us-east-1",
+                "mapSize": [
+                    4,
+                    1
+                ],
+                "nodes": [
+                    "99931624-435b-4108-928e-4d96f246e312",
+                    "c38cf5b0-b696-4094-8f96-a50303fbce4a",
+                    "535273bb-1878-4a78-867d-a5c9f45d09e9"
+                ],
+                "layout": "even"
+            },
+            {
+                "type": "ekscluster",
+                "id": "5c208135-7dd6-41a9-830e-bd51ea39ea5d",
+                "arn": "arn:aws:eks:us-east-1:242690085300:cluster/eks-cluster-dev",
+                "mapPos": [
+                    19,
+                    16
+                ],
+                "region": "us-east-1",
+                "accentColor": {
+                    "isometric": "#5e35b1",
+                    "2d": "#5e35b1"
+                },
+                "nodes": [],
+                "name": "eks-cluster-dev"
+            },
+            {
+                "type": "asg",
+                "id": "d32b0237-ed96-4de8-9899-ce975b63d74f",
+                "arn": "arn:aws:autoscaling:us-east-1:242690085300:autoScalingGroup:3461bc78-31b2-4e0c-b7af-68cc51cfb899:autoScalingGroupName/eks-ext-apps-nodegroup-dev-cac19aa8-ce99-b818-42e4-bc90d48e6c7a",
+                "mapPos": [
+                    44,
+                    8
+                ],
+                "region": "us-east-1",
+                "mapSize": [
+                    7.5,
+                    1
+                ],
+                "nodes": [
+                    "8c5fc15b-32f2-4f18-9bfb-6d29a692c3c1",
+                    "1cf5c093-23fb-4a2b-9ec5-0515a613b373",
+                    "0b64881a-31cf-4084-ae55-60de53657567",
+                    "7714e7c6-2f5f-44e6-bdf1-d713dd8e0c90",
+                    "70101fa3-fbdd-48f2-ad25-593ddd1f9472",
+                    "a93b6e36-1846-4806-b4ce-b80ad762f4a8"
+                ],
+                "layout": "even"
+            },
+            {
+                "type": "sg",
+                "region": "us-east-1",
+                "id": "sg-018197cef09e17ddb",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:security-group/sg-018197cef09e17ddb",
+                "nodes": [
+                    "a772e4f5-096a-4451-8321-6ffc4c22d688"
+                ],
+                "color": {
+                    "isometric": "#9e9e9e",
+                    "2d": "#9e9e9e"
+                },
+                "visible": true,
+                "name": "do-not-use",
+                "inboundRules": [],
+                "outboundRules": [],
+                "padding": 1.5,
+                "shape": "dynamic"
+            },
+            {
+                "type": "sg",
+                "region": "us-east-1",
+                "id": "sg-0f95e3dc31fd60a71",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:security-group/sg-0f95e3dc31fd60a71",
+                "nodes": [
+                    "5c208135-7dd6-41a9-830e-bd51ea39ea5d"
+                ],
+                "color": {
+                    "isometric": "#607d8b",
+                    "2d": "#607d8b"
+                },
+                "visible": true,
+                "name": "cluster-security-group",
+                "inboundRules": [
+                    {
+                        "portRange": "443",
+                        "protocol": "tcp",
+                        "target": "sg-09e5d1288b89b5539",
+                        "targetType": "sg",
+                        "description": "Allow pods to communicate with the EKS cluster API.",
+                        "hidden": false
+                    }
+                ],
+                "outboundRules": [
+                    {
+                        "portRange": "0",
+                        "protocol": "-1",
+                        "target": "0.0.0.0/0",
+                        "targetType": "ip",
+                        "description": "Allow cluster egress access to the Internet.",
+                        "hidden": false
+                    }
+                ],
+                "padding": 1.5,
+                "shape": "dynamic"
+            },
+            {
+                "type": "sg",
+                "region": "us-east-1",
+                "id": "sg-0d8a875b257a95536",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:security-group/sg-0d8a875b257a95536",
+                "nodes": [
+                    "165ab37a-e38e-4174-ac9b-9d9cc598c508"
+                ],
+                "color": {
+                    "isometric": "#f57c00",
+                    "2d": "#f57c00"
+                },
+                "visible": true,
+                "name": "frontend-alb-ingress-sg",
+                "inboundRules": [
+                    {
+                        "portRange": "0",
+                        "protocol": "-1",
+                        "target": "sg-0d8a875b257a95536",
+                        "targetType": "sg",
+                        "description": "Ingress Rule",
+                        "hidden": false
+                    }
+                ],
+                "outboundRules": [
+                    {
+                        "portRange": "0",
+                        "protocol": "-1",
+                        "target": "0.0.0.0/0",
+                        "targetType": "ip",
+                        "description": "All protocols",
+                        "hidden": false
+                    },
+                    {
+                        "portRange": "0",
+                        "protocol": "-1",
+                        "target": "::/0",
+                        "targetType": "ipv6",
+                        "description": "All protocols",
+                        "hidden": false
+                    }
+                ],
+                "padding": 1.5,
+                "shape": "dynamic"
+            },
+            {
+                "type": "sg",
+                "region": "us-east-1",
+                "id": "sg-01f4ee1cbcdc3afb6",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:security-group/sg-01f4ee1cbcdc3afb6",
+                "nodes": [
+                    "25b34717-3d81-4bdd-9162-355a0f1824e7",
+                    "e1a532ab-a393-4f2f-a52c-3c933469e2b8"
+                ],
+                "color": {
+                    "isometric": "#03a9f4",
+                    "2d": "#03a9f4"
+                },
+                "visible": true,
+                "name": "cs-securitygroup-1",
+                "inboundRules": [
+                    {
+                        "portRange": "3306",
+                        "protocol": "tcp",
+                        "target": "97.89.24.55/32",
+                        "targetType": "ip",
+                        "hidden": false
+                    }
+                ],
+                "outboundRules": [
+                    {
+                        "portRange": "0",
+                        "protocol": "-1",
+                        "target": "0.0.0.0/0",
+                        "targetType": "ip",
+                        "hidden": false
+                    }
+                ],
+                "padding": 1.5,
+                "shape": "dynamic"
+            },
+            {
+                "type": "sg",
+                "region": "us-east-1",
+                "id": "sg-04885ffea96f84c23",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:security-group/sg-04885ffea96f84c23",
+                "nodes": [
+                    "b69b804c-f81d-40cb-99cc-ea916785253f"
+                ],
+                "color": {
+                    "isometric": "#d81b60",
+                    "2d": "#d81b60"
+                },
+                "visible": true,
+                "name": "admin-frontend-ec2-sg",
+                "inboundRules": [
+                    {
+                        "portRange": "22",
+                        "protocol": "tcp",
+                        "target": "8.6.193.248/32",
+                        "targetType": "ip",
+                        "description": "ssh access",
+                        "hidden": false
+                    }
+                ],
+                "outboundRules": [
+                    {
+                        "portRange": "0",
+                        "protocol": "-1",
+                        "target": "0.0.0.0/0",
+                        "targetType": "ip",
+                        "hidden": false
+                    }
+                ],
+                "padding": 1.5,
+                "shape": "dynamic"
+            },
+            {
+                "type": "sg",
+                "region": "us-east-1",
+                "id": "sg-092fe5265cb67821d",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:security-group/sg-092fe5265cb67821d",
+                "nodes": [
+                    "d7b6e14a-24fe-4279-bad9-5c70f2f32bfa"
+                ],
+                "color": {
+                    "isometric": "#03a9f4",
+                    "2d": "#03a9f4"
+                },
+                "visible": true,
+                "name": "GuardDutyManagedSecurityGroup-vpc-00097a001ea070a9e",
+                "inboundRules": [
+                    {
+                        "portRange": "443",
+                        "protocol": "tcp",
+                        "target": "0.0.0.0/0",
+                        "targetType": "ip",
+                        "hidden": false
+                    }
+                ],
+                "outboundRules": [],
+                "padding": 1.5,
+                "shape": "dynamic"
+            },
+            {
+                "type": "sg",
+                "region": "us-east-1",
+                "id": "sg-06463574241d9f36b",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:security-group/sg-06463574241d9f36b",
+                "nodes": [
+                    "4df266db-17bc-4d5a-9ef2-bdc36fd06e3c",
+                    "a8b46437-f0a8-4cd3-8dc3-842b9566937c"
+                ],
+                "color": {
+                    "isometric": "#ff9800",
+                    "2d": "#ff9800"
+                },
+                "visible": true,
+                "name": "zaxbys-microservice-dev",
+                "inboundRules": [
+                    {
+                        "portRange": "6379",
+                        "protocol": "tcp",
+                        "target": "10.50.0.0/16",
+                        "targetType": "ip",
+                        "hidden": false
+                    }
+                ],
+                "outboundRules": [
+                    {
+                        "portRange": "0",
+                        "protocol": "-1",
+                        "target": "0.0.0.0/0",
+                        "targetType": "ip",
+                        "hidden": false
+                    }
+                ],
+                "padding": 1.5,
+                "shape": "dynamic"
+            },
+            {
+                "type": "sg",
+                "region": "us-east-1",
+                "id": "sg-004ef2ba56a25a864",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:security-group/sg-004ef2ba56a25a864",
+                "nodes": [
+                    "6dd203dc-a8b9-41dc-9487-2b56a2117db9"
+                ],
+                "color": {
+                    "isometric": "#2196f3",
+                    "2d": "#2196f3"
+                },
+                "visible": true,
+                "name": "eks-efs-dev",
+                "inboundRules": [
+                    {
+                        "portRange": "2049",
+                        "protocol": "tcp",
+                        "target": "10.50.0.0/16",
+                        "targetType": "ip",
+                        "description": "SG rule for efs csi controller",
+                        "hidden": false
+                    },
+                    {
+                        "portRange": "2049",
+                        "protocol": "tcp",
+                        "target": "sg-004ef2ba56a25a864",
+                        "targetType": "sg",
+                        "description": "NFS Inbound",
+                        "hidden": false
+                    }
+                ],
+                "outboundRules": [
+                    {
+                        "portRange": "0",
+                        "protocol": "-1",
+                        "target": "0.0.0.0/0",
+                        "targetType": "ip",
+                        "hidden": false
+                    }
+                ],
+                "padding": 1.5,
+                "shape": "dynamic"
+            },
+            {
+                "type": "sg",
+                "region": "us-east-1",
+                "id": "sg-02c6673882aad1a27",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:security-group/sg-02c6673882aad1a27",
+                "nodes": [
+                    "1a7d66b1-a1ef-4d27-b6cb-737afdce8c28"
+                ],
+                "color": {
+                    "isometric": "#8bc34a",
+                    "2d": "#8bc34a"
+                },
+                "visible": true,
+                "name": "get-config-lambda-SG",
+                "inboundRules": [
+                    {
+                        "portRange": "3307",
+                        "protocol": "tcp",
+                        "target": "10.50.0.0/16",
+                        "targetType": "ip",
+                        "hidden": false
+                    },
+                    {
+                        "portRange": "3306",
+                        "protocol": "tcp",
+                        "target": "10.50.0.0/16",
+                        "targetType": "ip",
+                        "hidden": false
+                    }
+                ],
+                "outboundRules": [
+                    {
+                        "portRange": "0",
+                        "protocol": "-1",
+                        "target": "0.0.0.0/0",
+                        "targetType": "ip",
+                        "hidden": false
+                    }
+                ],
+                "padding": 1.5,
+                "shape": "dynamic"
+            },
+            {
+                "type": "sg",
+                "region": "us-east-1",
+                "id": "sg-080cb6907c0b19bda",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:security-group/sg-080cb6907c0b19bda",
+                "nodes": [
+                    "d4f54e3c-8865-406e-9f9d-59ca6bd25c12"
+                ],
+                "color": {
+                    "isometric": "#ff5722",
+                    "2d": "#ff5722"
+                },
+                "visible": true,
+                "name": "rds-dev-sg",
+                "inboundRules": [
+                    {
+                        "portRange": "3307",
+                        "protocol": "tcp",
+                        "target": "10.50.0.0/16",
+                        "targetType": "ip",
+                        "description": "MySQL/Aurora",
+                        "hidden": false
+                    },
+                    {
+                        "portRange": "3307",
+                        "protocol": "tcp",
+                        "target": "sg-0937beda081df1a80",
+                        "targetType": "sg",
+                        "description": "MySQL/Aurora",
+                        "hidden": false
+                    },
+                    {
+                        "portRange": "3307",
+                        "protocol": "tcp",
+                        "target": "sg-080cb6907c0b19bda",
+                        "targetType": "sg",
+                        "description": "lambda",
+                        "hidden": false
+                    },
+                    {
+                        "portRange": "3306",
+                        "protocol": "tcp",
+                        "target": "10.50.0.0/16",
+                        "targetType": "ip",
+                        "hidden": false
+                    }
+                ],
+                "outboundRules": [],
+                "padding": 1.5,
+                "shape": "dynamic"
+            },
+            {
+                "type": "sg",
+                "region": "us-east-1",
+                "id": "sg-0937beda081df1a80",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:security-group/sg-0937beda081df1a80",
+                "nodes": [
+                    "abc3babc-52d3-4090-8ec2-194518d64664"
+                ],
+                "color": {
+                    "isometric": "#8bc34a",
+                    "2d": "#8bc34a"
+                },
+                "visible": true,
+                "name": "bastion-security-group-dev",
+                "inboundRules": [
+                    {
+                        "portRange": "22",
+                        "protocol": "tcp",
+                        "target": "73.197.193.215/32",
+                        "targetType": "ip",
+                        "description": "IFS VPN",
+                        "hidden": false
+                    },
+                    {
+                        "portRange": "22",
+                        "protocol": "tcp",
+                        "target": "8.6.193.248/32",
+                        "targetType": "ip",
+                        "description": "VRize VPN",
+                        "hidden": false
+                    },
+                    {
+                        "portRange": "22",
+                        "protocol": "tcp",
+                        "target": "73.7.243.198/32",
+                        "targetType": "ip",
+                        "description": "Abhijit IP",
+                        "hidden": false
+                    },
+                    {
+                        "portRange": "22",
+                        "protocol": "tcp",
+                        "target": "75.130.116.46/32",
+                        "targetType": "ip",
+                        "description": "Bryce Home",
+                        "hidden": false
+                    },
+                    {
+                        "portRange": "22",
+                        "protocol": "tcp",
+                        "target": "68.112.54.129/32",
+                        "targetType": "ip",
+                        "description": "Arbory East Office",
+                        "hidden": false
+                    },
+                    {
+                        "portRange": "22",
+                        "protocol": "tcp",
+                        "target": "73.209.138.149/32",
+                        "targetType": "ip",
+                        "description": "Emmanuel IP",
+                        "hidden": false
+                    },
+                    {
+                        "portRange": "22",
+                        "protocol": "tcp",
+                        "target": "104.0.245.209/32",
+                        "targetType": "ip",
+                        "description": "Arbory North Office",
+                        "hidden": false
+                    }
+                ],
+                "outboundRules": [
+                    {
+                        "portRange": "0",
+                        "protocol": "-1",
+                        "target": "0.0.0.0/0",
+                        "targetType": "ip",
+                        "hidden": false
+                    }
+                ],
+                "padding": 1.5,
+                "shape": "dynamic"
+            },
+            {
+                "type": "sg",
+                "region": "us-east-1",
+                "id": "sg-09e5d1288b89b5539",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:security-group/sg-09e5d1288b89b5539",
+                "nodes": [
+                    "a93b6e36-1846-4806-b4ce-b80ad762f4a8",
+                    "8c5fc15b-32f2-4f18-9bfb-6d29a692c3c1",
+                    "7d9c5768-4d6b-47b3-8bdd-58eaef6faf05",
+                    "0b64881a-31cf-4084-ae55-60de53657567",
+                    "70101fa3-fbdd-48f2-ad25-593ddd1f9472",
+                    "7714e7c6-2f5f-44e6-bdf1-d713dd8e0c90",
+                    "535273bb-1878-4a78-867d-a5c9f45d09e9",
+                    "1cf5c093-23fb-4a2b-9ec5-0515a613b373",
+                    "c38cf5b0-b696-4094-8f96-a50303fbce4a",
+                    "d32b0237-ed96-4de8-9899-ce975b63d74f",
+                    "99931624-435b-4108-928e-4d96f246e312"
+                ],
+                "color": {
+                    "isometric": "#03a9f4",
+                    "2d": "#03a9f4"
+                },
+                "visible": true,
+                "name": "worker-security-group",
+                "inboundRules": [
+                    {
+                        "portRange": "0",
+                        "protocol": "-1",
+                        "target": "sg-09e5d1288b89b5539",
+                        "targetType": "sg",
+                        "description": "Allow node to communicate with each other.",
+                        "hidden": false
+                    },
+                    {
+                        "portRange": "0",
+                        "protocol": "-1",
+                        "target": "sg-0937beda081df1a80",
+                        "targetType": "sg",
+                        "hidden": false
+                    },
+                    {
+                        "portRange": "30932",
+                        "protocol": "tcp",
+                        "target": "10.50.0.0/16",
+                        "targetType": "ip",
+                        "description": "elbv2.k8s.aws/targetGroupBinding=shared",
+                        "hidden": false
+                    },
+                    {
+                        "portRange": "1025-65535",
+                        "protocol": "tcp",
+                        "target": "sg-0f95e3dc31fd60a71",
+                        "targetType": "sg",
+                        "description": "Allow workers pods to receive communication from the cluster control plane.",
+                        "hidden": false
+                    },
+                    {
+                        "portRange": "30750",
+                        "protocol": "tcp",
+                        "target": "10.50.0.0/16",
+                        "targetType": "ip",
+                        "description": "elbv2.k8s.aws/targetGroupBinding=shared",
+                        "hidden": false
+                    },
+                    {
+                        "portRange": "443",
+                        "protocol": "tcp",
+                        "target": "sg-0f95e3dc31fd60a71",
+                        "targetType": "sg",
+                        "description": "Allow pods running extension API servers on port 443 to receive communication from cluster control plane.",
+                        "hidden": false
+                    },
+                    {
+                        "portRange": "30457",
+                        "protocol": "tcp",
+                        "target": "10.50.0.0/16",
+                        "targetType": "ip",
+                        "description": "elbv2.k8s.aws/targetGroupBinding=shared",
+                        "hidden": false
+                    },
+                    {
+                        "portRange": "30435",
+                        "protocol": "tcp",
+                        "target": "10.50.0.0/16",
+                        "targetType": "ip",
+                        "description": "elbv2.k8s.aws/targetGroupBinding=shared",
+                        "hidden": false
+                    }
+                ],
+                "outboundRules": [
+                    {
+                        "portRange": "0",
+                        "protocol": "-1",
+                        "target": "0.0.0.0/0",
+                        "targetType": "ip",
+                        "description": "Allow nodes all egress to the Internet.",
+                        "hidden": false
+                    }
+                ],
+                "padding": 1.5,
+                "shape": "dynamic"
+            },
+            {
+                "type": "vpc",
+                "region": "us-east-1",
+                "id": "vpc-0abaebeb5762db3c3",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:vpc/vpc-0abaebeb5762db3c3",
+                "nodes": [
+                    "b3ce5f72-7ea0-4097-81fb-e43fd6bf7c2e"
+                ],
+                "color": {
+                    "isometric": "#9e9e9e",
+                    "2d": "#9e9e9e"
+                },
+                "visible": true,
+                "name": "do-not-use",
+                "peeringConnections": [],
+                "padding": 1.5,
+                "shape": "rectangular"
+            },
+            {
+                "type": "vpc",
+                "region": "us-east-1",
+                "id": "vpc-00097a001ea070a9e",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:vpc/vpc-00097a001ea070a9e",
+                "nodes": [
+                    "165ab37a-e38e-4174-ac9b-9d9cc598c508",
+                    "subnet-03fafa012b7695732",
+                    "a93b6e36-1846-4806-b4ce-b80ad762f4a8",
+                    "8c5fc15b-32f2-4f18-9bfb-6d29a692c3c1",
+                    "b69b804c-f81d-40cb-99cc-ea916785253f",
+                    "7d9c5768-4d6b-47b3-8bdd-58eaef6faf05",
+                    "sg-004ef2ba56a25a864",
+                    "4df266db-17bc-4d5a-9ef2-bdc36fd06e3c",
+                    "b523d97e-b8aa-4813-8d6a-4dd370de5762",
+                    "subnet-00b133dd7378a5547",
+                    "subnet-0c09737dbb9d7b731",
+                    "0b64881a-31cf-4084-ae55-60de53657567",
+                    "58d1355f-1d03-4b8b-b56f-1a52814fe677",
+                    "sg-02c6673882aad1a27",
+                    "a772e4f5-096a-4451-8321-6ffc4c22d688",
+                    "sg-0937beda081df1a80",
+                    "70101fa3-fbdd-48f2-ad25-593ddd1f9472",
+                    "sg-0f95e3dc31fd60a71",
+                    "sg-0d8a875b257a95536",
+                    "subnet-0aaf4202000df3ce9",
+                    "7714e7c6-2f5f-44e6-bdf1-d713dd8e0c90",
+                    "subnet-0f521dcc7a1883a1e",
+                    "sg-018197cef09e17ddb",
+                    "sg-04885ffea96f84c23",
+                    "1a7d66b1-a1ef-4d27-b6cb-737afdce8c28",
+                    "535273bb-1878-4a78-867d-a5c9f45d09e9",
+                    "d7b6e14a-24fe-4279-bad9-5c70f2f32bfa",
+                    "1cf5c093-23fb-4a2b-9ec5-0515a613b373",
+                    "6dd203dc-a8b9-41dc-9487-2b56a2117db9",
+                    "c38cf5b0-b696-4094-8f96-a50303fbce4a",
+                    "5c208135-7dd6-41a9-830e-bd51ea39ea5d",
+                    "sg-092fe5265cb67821d",
+                    "sg-09e5d1288b89b5539",
+                    "174d17a1-abac-4b98-886b-6ac6c6cd5b5f",
+                    "a8b46437-f0a8-4cd3-8dc3-842b9566937c",
+                    "sg-080cb6907c0b19bda",
+                    "subnet-02fb8a3592db6f803",
+                    "d32b0237-ed96-4de8-9899-ce975b63d74f",
+                    "8a492a9d-8482-480e-a6a1-b41302167e6d",
+                    "sg-06463574241d9f36b",
+                    "fc11c1a8-49ff-492f-8a18-605fd116be90",
+                    "99931624-435b-4108-928e-4d96f246e312",
+                    "abc3babc-52d3-4090-8ec2-194518d64664",
+                    "44b8f0bb-9a65-473b-b357-8dbe966a3b45",
+                    "d4f54e3c-8865-406e-9f9d-59ca6bd25c12"
+                ],
+                "color": {
+                    "isometric": "#9e9e9e",
+                    "2d": "#9e9e9e"
+                },
+                "visible": true,
+                "name": "zaxbys-dev",
+                "peeringConnections": [],
+                "padding": 1.5,
+                "shape": "rectangular"
+            },
+            {
+                "type": "vpc",
+                "region": "us-east-1",
+                "id": "vpc-0768d153fa4b80ef6",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:vpc/vpc-0768d153fa4b80ef6",
+                "nodes": [
+                    "sg-01f4ee1cbcdc3afb6",
+                    "25b34717-3d81-4bdd-9162-355a0f1824e7",
+                    "subnet-033490236302ac1a3",
+                    "e1a532ab-a393-4f2f-a52c-3c933469e2b8",
+                    "subnet-0cac425ff208b00ad",
+                    "subnet-0e446ef3d51cee484",
+                    "5a3a15e4-1df2-4037-a0c9-fecd79aa4935"
+                ],
+                "color": {
+                    "isometric": "#2196f3",
+                    "2d": "#2196f3"
+                },
+                "visible": true,
+                "name": "cs-vpc-1",
+                "peeringConnections": [],
+                "padding": 1.5,
+                "shape": "rectangular"
+            },
+            {
+                "type": "subnet",
+                "region": "us-east-1",
+                "id": "subnet-03fafa012b7695732",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:subnet/subnet-03fafa012b7695732",
+                "nodes": [
+                    "7d9c5768-4d6b-47b3-8bdd-58eaef6faf05",
+                    "4df266db-17bc-4d5a-9ef2-bdc36fd06e3c",
+                    "b523d97e-b8aa-4813-8d6a-4dd370de5762",
+                    "0b64881a-31cf-4084-ae55-60de53657567",
+                    "a772e4f5-096a-4451-8321-6ffc4c22d688",
+                    "70101fa3-fbdd-48f2-ad25-593ddd1f9472",
+                    "1a7d66b1-a1ef-4d27-b6cb-737afdce8c28",
+                    "5c208135-7dd6-41a9-830e-bd51ea39ea5d",
+                    "a8b46437-f0a8-4cd3-8dc3-842b9566937c",
+                    "d32b0237-ed96-4de8-9899-ce975b63d74f",
+                    "fc11c1a8-49ff-492f-8a18-605fd116be90",
+                    "99931624-435b-4108-928e-4d96f246e312",
+                    "d4f54e3c-8865-406e-9f9d-59ca6bd25c12"
+                ],
+                "color": {
+                    "isometric": "#ff5722",
+                    "2d": "#ff5722"
+                },
+                "visible": true,
+                "name": "zaxbys-dev-private-us-east-1c",
+                "padding": 3,
+                "shape": "rectangular",
+                "availabilityZone": "us-east-1c",
+                "public": false
+            },
+            {
+                "type": "subnet",
+                "region": "us-east-1",
+                "id": "subnet-00b133dd7378a5547",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:subnet/subnet-00b133dd7378a5547",
+                "nodes": [
+                    "6dd203dc-a8b9-41dc-9487-2b56a2117db9",
+                    "d7b6e14a-24fe-4279-bad9-5c70f2f32bfa",
+                    "165ab37a-e38e-4174-ac9b-9d9cc598c508",
+                    "58d1355f-1d03-4b8b-b56f-1a52814fe677"
+                ],
+                "color": {
+                    "isometric": "#795548",
+                    "2d": "#795548"
+                },
+                "visible": true,
+                "name": "zaxbys-dev-public-us-east-1c",
+                "padding": 3,
+                "shape": "rectangular",
+                "availabilityZone": "us-east-1c",
+                "public": true
+            },
+            {
+                "type": "subnet",
+                "region": "us-east-1",
+                "id": "subnet-0c09737dbb9d7b731",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:subnet/subnet-0c09737dbb9d7b731",
+                "nodes": [
+                    "6dd203dc-a8b9-41dc-9487-2b56a2117db9",
+                    "165ab37a-e38e-4174-ac9b-9d9cc598c508",
+                    "8a492a9d-8482-480e-a6a1-b41302167e6d"
+                ],
+                "color": {
+                    "isometric": "#2196f3",
+                    "2d": "#2196f3"
+                },
+                "visible": true,
+                "name": "zaxbys-dev-public-us-east-1b",
+                "padding": 3,
+                "shape": "rectangular",
+                "availabilityZone": "us-east-1b",
+                "public": true
+            },
+            {
+                "type": "subnet",
+                "region": "us-east-1",
+                "id": "subnet-0e446ef3d51cee484",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:subnet/subnet-0e446ef3d51cee484",
+                "nodes": [
+                    "e1a532ab-a393-4f2f-a52c-3c933469e2b8"
+                ],
+                "color": {
+                    "isometric": "#009688",
+                    "2d": "#009688"
+                },
+                "visible": true,
+                "name": "cs-subnet-3",
+                "padding": 3,
+                "shape": "rectangular",
+                "availabilityZone": "us-east-1c",
+                "public": false
+            },
+            {
+                "type": "subnet",
+                "region": "us-east-1",
+                "id": "subnet-0aaf4202000df3ce9",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:subnet/subnet-0aaf4202000df3ce9",
+                "nodes": [
+                    "7d9c5768-4d6b-47b3-8bdd-58eaef6faf05",
+                    "4df266db-17bc-4d5a-9ef2-bdc36fd06e3c",
+                    "b523d97e-b8aa-4813-8d6a-4dd370de5762",
+                    "a772e4f5-096a-4451-8321-6ffc4c22d688",
+                    "7714e7c6-2f5f-44e6-bdf1-d713dd8e0c90",
+                    "1a7d66b1-a1ef-4d27-b6cb-737afdce8c28",
+                    "535273bb-1878-4a78-867d-a5c9f45d09e9",
+                    "d7b6e14a-24fe-4279-bad9-5c70f2f32bfa",
+                    "1cf5c093-23fb-4a2b-9ec5-0515a613b373",
+                    "5c208135-7dd6-41a9-830e-bd51ea39ea5d",
+                    "a8b46437-f0a8-4cd3-8dc3-842b9566937c",
+                    "d32b0237-ed96-4de8-9899-ce975b63d74f",
+                    "fc11c1a8-49ff-492f-8a18-605fd116be90",
+                    "d4f54e3c-8865-406e-9f9d-59ca6bd25c12"
+                ],
+                "color": {
+                    "isometric": "#00bcd4",
+                    "2d": "#00bcd4"
+                },
+                "visible": true,
+                "name": "zaxbys-dev-private-us-east-1b",
+                "padding": 3,
+                "shape": "rectangular",
+                "availabilityZone": "us-east-1b",
+                "public": false
+            },
+            {
+                "type": "subnet",
+                "region": "us-east-1",
+                "id": "subnet-0f521dcc7a1883a1e",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:subnet/subnet-0f521dcc7a1883a1e",
+                "nodes": [
+                    "6dd203dc-a8b9-41dc-9487-2b56a2117db9",
+                    "abc3babc-52d3-4090-8ec2-194518d64664",
+                    "b69b804c-f81d-40cb-99cc-ea916785253f",
+                    "d7b6e14a-24fe-4279-bad9-5c70f2f32bfa",
+                    "165ab37a-e38e-4174-ac9b-9d9cc598c508",
+                    "174d17a1-abac-4b98-886b-6ac6c6cd5b5f"
+                ],
+                "color": {
+                    "isometric": "#e53935",
+                    "2d": "#e53935"
+                },
+                "visible": true,
+                "name": "zaxbys-dev-public-us-east-1a",
+                "padding": 3,
+                "shape": "rectangular",
+                "availabilityZone": "us-east-1a",
+                "public": true
+            },
+            {
+                "type": "subnet",
+                "region": "us-east-1",
+                "id": "subnet-033490236302ac1a3",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:subnet/subnet-033490236302ac1a3",
+                "nodes": [
+                    "25b34717-3d81-4bdd-9162-355a0f1824e7",
+                    "e1a532ab-a393-4f2f-a52c-3c933469e2b8"
+                ],
+                "color": {
+                    "isometric": "#607d8b",
+                    "2d": "#607d8b"
+                },
+                "visible": true,
+                "name": "cs-subnet-1",
+                "padding": 3,
+                "shape": "rectangular",
+                "availabilityZone": "us-east-1a",
+                "public": false
+            },
+            {
+                "type": "subnet",
+                "region": "us-east-1",
+                "id": "subnet-02fb8a3592db6f803",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:subnet/subnet-02fb8a3592db6f803",
+                "nodes": [
+                    "a93b6e36-1846-4806-b4ce-b80ad762f4a8",
+                    "8c5fc15b-32f2-4f18-9bfb-6d29a692c3c1",
+                    "7d9c5768-4d6b-47b3-8bdd-58eaef6faf05",
+                    "4df266db-17bc-4d5a-9ef2-bdc36fd06e3c",
+                    "b523d97e-b8aa-4813-8d6a-4dd370de5762",
+                    "a772e4f5-096a-4451-8321-6ffc4c22d688",
+                    "1a7d66b1-a1ef-4d27-b6cb-737afdce8c28",
+                    "c38cf5b0-b696-4094-8f96-a50303fbce4a",
+                    "5c208135-7dd6-41a9-830e-bd51ea39ea5d",
+                    "a8b46437-f0a8-4cd3-8dc3-842b9566937c",
+                    "d32b0237-ed96-4de8-9899-ce975b63d74f",
+                    "fc11c1a8-49ff-492f-8a18-605fd116be90",
+                    "d4f54e3c-8865-406e-9f9d-59ca6bd25c12"
+                ],
+                "color": {
+                    "isometric": "#4caf50",
+                    "2d": "#4caf50"
+                },
+                "visible": true,
+                "name": "zaxbys-dev-private-us-east-1a",
+                "padding": 3,
+                "shape": "rectangular",
+                "availabilityZone": "us-east-1a",
+                "public": false
+            },
+            {
+                "type": "subnet",
+                "region": "us-east-1",
+                "id": "subnet-0cac425ff208b00ad",
+                "arn": "arn:aws:ec2:us-east-1:242690085300:subnet/subnet-0cac425ff208b00ad",
+                "nodes": [
+                    "e1a532ab-a393-4f2f-a52c-3c933469e2b8"
+                ],
+                "color": {
+                    "isometric": "#d81b60",
+                    "2d": "#d81b60"
+                },
+                "visible": true,
+                "name": "cs-subnet-2",
+                "padding": 3,
+                "shape": "rectangular",
+                "availabilityZone": "us-east-1b",
+                "public": false
+            }
+        ],
+        "disabledLayers": [],
+        "theme": {}
+    }
+}
